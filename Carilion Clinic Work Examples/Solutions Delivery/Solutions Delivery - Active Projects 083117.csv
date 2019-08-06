@@ -1,0 +1,1686 @@
+Change No.,Assign Dept,Category,Chs Change Level,Current Phase,Orig Date Entered,Requested Date,Close Time,Change Status,Title,Description,Requested by,Estimated LOE,Chs 2020 Focus,Chs Project,Owner,Chs Est Hours over 100,Priority Code,Logical Name,Affected Item,Actual Outage End
+"C1020964","SOLUTIONS_DELIVERY_CLINICAL","RFC - MAINTENANCE","2","RFC - IMPLEMENTATION","08/22/12 11:35:42","03/30/18 00:00:00","","IN PROGRESS","GE Muse Ambulatory Build-out (version 8)","GE Muse Upgrade
+•	The objective of the project is to upgrade the GE Muse System to the latest version and migrate the server hardware hosting the product from GE-supplied hardware to TSG-supplied hardware.
+•	The project will also address moving the CRMH site from a six-digit MRN scheme to a seven-digit MRN scheme to avoid an issue that will take place sometime in 2014 when MRNs for CRMH will expand to seven digits.","DPMARTIN","400","INNOVATION","YES","DPMARTIN","2500","2 - HIGH","MUSE ","APPLICATION SERVICES",""
+"C1058938","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","01/07/14 15:02:08","10/01/17 00:00:00","","IN PROGRESS","Rees Scientific Temperature Monitoring","Rees Scientific Temperature Monitoring","DPMARTIN","1200","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","TLFREEMAN","4000","2 - HIGH","REES TEMPERATURE MONITORING","APPLICATION SERVICES",""
+"C1076595","SOLUTIONS_DELIVERY_CLINICAL","RFC - OPTIMIZATION","2","RFC - IMPLEMENTATION","07/31/14 15:52:09","05/31/18 00:00:00","","IN PROGRESS","Rauland Responder 5 - Install Nurse Call at RMH","Install Nurse Call at RMH","MMSCHEAFFEL","1420","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","RBFARRIS","50","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1084282","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","1","RFC - IMPLEMENTATION","11/02/14 07:54:24","07/31/17 00:00:00","","IN PROGRESS","2.4 Patient Prompt - Patient Appt Reminder Replacement - (Access to Care)","Patient Appt Reminder Software Replacement","DRAQUILO","200","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","DRAQUILO","100","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1086315","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","2","RFC - COMPLETION","11/28/14 10:49:55","02/27/17 00:00:00","","PENDING REVIEW","Kronos v8 Upgrade","Kronos v8 Upgrade","DRAQUILO","1100","WORKFORCE FOR THE FUTURE","YES","DRAQUILO","1000","2 - HIGH","KRONOS SCHEDULER / VORTEX","APPLICATION SERVICES",""
+"C1090853","SOLUTIONS_DELIVERY_CLINICAL","RFC - MAINTENANCE","2","RFC - COMPLETION","01/23/15 11:28:57","08/25/17 23:00:00","","IN PROGRESS","PowerScribe 360 Upgrade","Need to upgrade PowerScribe 360 to 4.0 for new enhancements and bug fixes. Below are RFC's that are closed and related to this main project.
+
+1.	C1063252  Radiologist need the ability to add Bi-Rads within PS-360.
+a.	Lisa A said that she has made some progress but it is unfortunately going to be a slow process because the radiologists decided they want to do a standard template for all screening mammo studies that would fall in that Bi-Rads 0-2 range to make it more consistent and efficient.
+b.	Spoke breifly with Sonya on what is needed as far as the key phrase.  Basically something that is for the Bi-rad code and density.
+c.	We need a key phrase in the body.  Integration searches for Bi-rads category 1 grabs the 1st value put a space bar behind the word/number.  A key phrase is in the autotext and wouldn't be in another report. Example for density, perhaps breast density
+2.	C1063255 Read multiple studies in PS-360
+
+
+3.	C1065550 Please map the fluoro time answer located in the radiant end exam contrast/fluoro questionaire in the radinat end exam navigator to Powerscribe
+a.	Please map the answer total flouro time answer locatied in the fluoro/cine documentation flow sheet for Intervential radiology to powerscribe.
+b.	Benefit / Value:
+i.	conpliant with PQRS requirement
+
+4.	C1081725 Peer reivew will be part of the 3.0 upgrade as far as purchasing.  We will not configure or do anything specific to Peer Reivew until the upgrade has been completed.
+
+5.	C1090853 Need to upgrade PS 360 to 3.0 for new enhancements and bug fixes.
+a.	Contacted Chuck Perterson for docuemnts and to see if PopwerScribe has any new things that will be introduced in the near future.  I also had AJ to contact Sectra, they will be doing dose tracking and advance features are coming after the RMH Go-live but that should not affect PowerScribe.
+b.	I also contacted Nuance and their responds was that Nuance does not perform qualifications on Integrations.  It is up to the Client to confirm with the Vendor that their specific version of the vendor product is supported with their version of PowerScribe 360/Reporting.  That being said, they do not have any known issues with Sectra
+
+6.	C1094760 Please create the below teaching fields in PowerScribe and map them to the correct reporting fields in epic.
+a.	Powerscribe teaching fields addition. We would like to add 2 'Teaching' field codes to powerscribe to track laterality errors in dictation. 'Teaching:K'  would be noted as 5a- Discrepancy in laterality- unlikely to be clinically significant. 'Teaching:S'  would be noted as 5b- Discrepancy in laterality- likely to be clinically significant. Epic application module to be optimized: Radiology (Radiant) Improvement Initiative this Optimization will effect: Documentation Improvement. Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+b.	Benefit / Value: This will aide the imaging QM specialist track laterality errors.
+
+7.	C1094990 Radiation Dose to be used from modality DICOM to populate PACS and Powerscribe.
+a.	On hold until the upgrade.  07/08/15:  We will not be upgrading to 2.0.  The PowerScribe upgrade will be to upgrade to 2.5.1 which will not happen until we get new equipment that will have Windows
+
+8. PowerShare, to include Blue Field as well
+9. C1163906 Make Sure all Powerscribe 360 codes are correct in Powerscribe
+
+Needs to be complete prior to 360 upgrade.  Per Thomas, this needs to be tracked with the upgrade, closing C1163906","DNHENLEY","460","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","RBJONES","0","3 - MEDIUM","POWERSCRIBE ","APPLICATION SERVICES",""
+"C1094535","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","03/06/15 15:45:21","02/28/18 00:00:00","","IN PROGRESS","Enterprise PaceArt Activation","Enterprise PaceArt Activation","DPMARTIN","430","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","DPMARTIN","1500","3 - MEDIUM","MUSE ","APPLICATION SERVICES",""
+"C1097125","SOLUTIONS_DELIVERY_CLINICAL","RFC - MAINTENANCE","3","RFC - IMPLEMENTATION","04/06/15 11:44:29","08/31/17 00:00:00","","IN PROGRESS","Safewatch (Formerly Riskonnect) with related integration","SafeWatch (Formerly Riskonnect)","DRAQUILO","2100","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","DRAQUILO","1000","2 - HIGH","SAFEWATCH","APPLICATION SERVICES",""
+"C1114180","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","1","RFC - IMPLEMENTATION","10/19/15 09:58:44","10/31/17 00:00:00","","IN PROGRESS","7 Infor Contract Management","Infor Contract Management","DRAQUILO","200","INNOVATION","YES","DRAQUILO","100","2 - HIGH","LAWSON ","APPLICATION SERVICES",""
+"C1117669","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","3","RFC - RESEARCH","11/23/15 12:58:27","","","PENDING CUSTOMER","Healthy Planet (Epic) Implementation","Implement Healthy Planet / Care Planning functions and assests within Epic","DMLITTLEPAGE","5000","FINANCIAL VITALITY","YES","RBFARRIS","50000","1 - CRITICAL","EPIC CARE AMBULATORY","APPLICATION SERVICES",""
+"C1123572","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","01/20/16 13:16:08","10/01/17 00:00:00","","IN PROGRESS","TSG PHOENIX - Disaster Recovery Information System","TSG PHOENIX - Disaster Recovery Information System Implementation Project
+
+The purpose of this initiative is to design and implement an application information system to support TSG's disaster recovery program.","TLFREEMAN","450","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","TLFREEMAN","0","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1124635","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","2","RFC - COMPLETION","01/29/16 10:19:17","11/01/16 00:00:00","","PENDING REVIEW","Hyperion Upgrade","Hyperion Upgrade","DRAQUILO","520","FINANCIAL VITALITY","YES","DRAQUILO","0","2 - HIGH","HYPERION (EAS) ","APPLICATION SERVICES",""
+"C1133098","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - OPTIMIZATION","2","RFC - IMPLEMENTATION","03/28/16 08:48:31","08/21/17 00:00:00","","IN PROGRESS","Jefferson College Student Health Records Portal Implementation","Jefferson College Student Health Records Portal - Research and Implement
+Primary Contact: Margie Vest, Dir of Distance Learning
+Timeline revised from March - August 2016 to November 2016 - August 2017
+Reference: PRF203131
+
+Description:
+Client request to research a solution(s) to provide ability for Jefferson Students to upload their health records online as an alternative to faxing or mailing.
+
+Planning phase: 14 days  2/14 – 2/28
+
+Executing/Iteration phase: 3/1 – 6/14
+
+Testing Phases:
+1st phase: 30 days  6/14 - 7/13 (4 testers)
+2nd phase:14 days: 7/14 - 8/3 (2 testers)
+3rd phase: 7 days: 8/4 - 8/13  (top 15 of 60 Blue Week students, announced to Faculty and staff on 8/7 during Welcome Back Day) - remove beta test label on website 8/14
+
+Soft Go-Live: 7 days: 8/14 - 8/20 (350+ new students)
+Go Live: 8/21 (all returning students arrive on campus)
+Monitor portal performance: 14 days   8/21 - 9/1
+Closing phase: 30 days  9/2 - 10/2  (communicate support model and process for reporting future incidents, or change requests through Edison)","MAWOMACK","120","HEALTHY COMMUNITIES","YES","CEGLEISNER","0","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1135637","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","04/15/16 11:55:21","10/31/17 00:00:00","","IN PROGRESS","SAP SuccessFactors: Applicant Tracking and Onboarding Modules","SAP SuccessFactors: ATS and Onboarding Modules","DRAQUILO","645","WORKFORCE FOR THE FUTURE","YES","DRAQUILO","0","2 - HIGH","UNDETERMINED","APPLICATION",""
+"C1136341","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","1","RFC - IMPLEMENTATION","04/21/16 13:34:47","10/09/17 00:00:00","","IN PROGRESS","2.8 Teletracking ORchestrate Implementation","RFC for Teletracking ORchestrate implementation","DPMARTIN","400","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","DPMARTIN","0","2 - HIGH","TELETRACKING ","APPLICATION SERVICES",""
+"C1139409","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","05/17/16 14:28:59","08/12/17 00:00:00","","IN PROGRESS","Epic 2017 Upgrade","Epic Upgrade Program Tracking
+This is our 2016 Upgrade’s project team’s RFC to track time and tasks against. We may release build in the 2017.1, 2017.2, 2017.3, and 2017.4 releases, but time spent towards refuel/upgrade should log against the RFC#","DPMARTIN","1500","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","DPMARTIN","0","1 - CRITICAL","EPIC CARE INPATIENT","APPLICATION SERVICES",""
+"C1142102","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","06/09/16 08:21:36","11/15/17 00:00:00","","IN PROGRESS","Dose tracking appliction within Sectra","CORT: Dose tracking appliction within Sectra.  This part of the Sectra PACS project.
+CC 13-70-9151-176700
+CapID 85584
+PO 1304343","EMGARCIA","385","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","AJRAY","0","2 - HIGH","SECTRA PACS","APPLICATION SERVICES",""
+"C1143965","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","2","RFC - RESEARCH","06/23/16 11:52:17","09/27/18 00:00:00","","PENDING REVIEW","Financial Systems Review","Financial Systems Review","RDWEBB","400","FINANCIAL VITALITY","YES","","0","3 - MEDIUM","STRATA JAZZ","APPLICATION SERVICES",""
+"C1146673","SOLUTIONS_DELIVERY_CLINICAL","EPIC SERVICES REQUEST","2","ESS - RESEARCH","07/18/16 08:54:46","","","IN PROGRESS","EPIC Optime - SSI and ERAS (Clinical Pathways)","Consider Clinical Pathways for SSI  and ERAS initiative for streamlined defined care of the patient
+
+Epic application module to be optimized: OR (Optime)
+
+Improvement Initiative this Optimization will effect: Quality and Safety
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value:
+SBAR attached","DRWALKER","5000","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","PEKANODE","0","","EPIC OPTIME ","APPLICATION SERVICES",""
+"C1149984","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - COMPLETION","08/10/16 08:35:11","07/31/17 00:00:00","","IN PROGRESS","Health Analytics Department Cube Build Project","Health Analytics Department Cube Build Project","SRMUNSEY","20","INNOVATION","YES","CASTOKES","0","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1151870","SOLUTIONS_DELIVERY_CLINICAL","EPIC SERVICES REQUEST","2","ESS - RESEARCH","08/25/16 11:37:35","","","PENDING VENDOR","Uniform Data System (UDS) and EPIC applications data exchange interfaces","SD-Need HL7 interface to provide automated, bidirectional data exchanges to ensure consistency between Uniform Data System (UDS) and EPIC applications.  The transactions will provide immediate, concurrent info in both UDS & Epic.  These interfaces will tremendous amounts of time. The following is a breakdown of the total needs.
+HL7 License Fee - $3,495 - one time fee (not dependent on the number of interfaces selected)
+ADT - patient demographics and insurance information into UDS, build and deployment to UAT/LIVE environments - $3,000 (one time fee)
+IRF_PAI interface - FIM assessments and quality indicators into UDS, build and deployment to UAT/LIVE environments - $4,000 (one time fee)
+DFT, CMG and CMS Accepted Date back to your billing system, build and deployment to UAT/LIVE environment - $2,500 (one time fee)
+IRF-PAI document exchange as an embedded PDF back to the medical record, build and deployment to UAT/LIVE environment - $5,000 (one time fee)
+HL7 Support Fee - $250.00 a month billed annually
+
+Debbie Poore is aware of this need.
+
+Epic application module to be optimized: Inpatient
+
+Improvement Initiative this Optimization will effect: Regulatory
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value:
+HL7 will benefit in may ways. All functions are currently being handled manually, so this will save time, money and ensure timeliness of documentation.
+1. Accurate patient demographics and insurance information will move from EPIC to UDS
+2. Current collected data and new CMS required quality indicators data will move from EPIC to UDS
+3. Current data provided by UDS will move back to EPIC
+4. IRF-PAI (18 page document ) which is now printed on every patient and sent to be scanned in to EPIC will move to EPIC on its own.","SRSMITH2","600","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","TCBERBERT","0","","EPIC CARE INPATIENT ","APPLICATION SERVICES",""
+"C1152137","INTAKE_DEFERRED_REQUESTS","RFC - OPTIMIZATION","3","RFC - RESEARCH","08/26/16 18:11:44","","","DEFERRED","OnBase - Sovera Document Image Storage Replacement Solution","Sovera Document Image Storage Replacement Solution (OnBase)","GTWOLFORD","10000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","2 - HIGH","SOVERA","APPLICATION SERVICES",""
+"C1154448","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","4","RFC - IMPLEMENTATION","09/14/16 11:01:34","09/30/17 00:00:00","","IN PROGRESS","Shenandoah Life (CTaC Move)","New Site:  Shenandoah Life (Various Departments Moving)
+
+New Location - ROANOKE 2301 BRAMBLETON AVE - #189
+
+Site Name:  TBD
+
+Description:  Renovation of facility, move CTaC.
+
+Physical Address: 2301 Brambleton Avenue SW  Roanoke, Va. 24018
+
+Contacts:  Jennifer Rotenberry, Curtis Mills, Kelly Howard, Dean Kelley, Mike Wray, Christy Stokes
+
+Associated PRF:  206423 (CTaC), others TBD
+
+Cost Center: **See below for CC info**
+
+Capital Project/Strata #:  85769 (For Phase I)
+Capital Project/Strata #:  8599 (For CTaC Additional Hardware)
+
+Timeline:  Aug 2017
+
+The building will pay $16k per month for circuit until it is occupied.  Company 12 owns the building so it would go to 12709156-800550 during construction.
+
+======================3/2/17
+Departement begin evaluaded for moving
+
+(July) - This  RFC
+CTaC
+
+(August) - C1217156
+Call Centers:  Carilion Direct, ROC, Casb 11th Fl
+Billing
+Util Mgmt (rehab ground floor)
+=======================
+
+*********************************12/31/16
+      Potential Departments Moving
+CTaC (14-70-8341-800336)
+CASB Billing & Call Center - M . Devinney
+Rehab Util Mgmt - D. Gentry
+Rehab Carilion Direct - T. Nerenberg
+ROC Ortho Call Center
+TSG Help Desk - C.  Phelps
+Potentially 1212 HR - H. Shepardson
+*********************************","HDKELLEY","400","WORKFORCE FOR THE FUTURE","YES","HDKELLEY","0","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1155556","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","1","RFC - IMPLEMENTATION","09/22/16 16:58:59","10/23/17 00:00:00","","IN PROGRESS","1 ACR Select™ Implementation","ACR Select™, a licensed product of the ACR, is the digitally consumable version of the ACR Appropriateness Criteria®, ready to incorporate into computerized ordering and EHR systems to guide providers when ordering medical imaging scans.
+
+ACR Select can be integrated with a wide variety of solutions for payers and providers for streamlined workflow at the point-of-care.","EMGARCIA","1000","FINANCIAL VITALITY","YES","CASTOKES","0","2 - HIGH","EPIC RADIANT","APPLICATION SERVICES",""
+"C1157103","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","10/06/16 09:23:20","03/30/18 00:00:00","","IN PROGRESS","2017 eCQM Hospital - Map, QA, educate and delivery by  1/1/2018","2017 eCQM Hospital  Reporting year: Map, QA, educate and delivery by  1/1/2018 4 more eCQM for IQR and MU programs - see attached statement of work","DMLITTLEPAGE","350","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","RBFARRIS","0","1 - CRITICAL","EPIC CARE INPATIENT","APPLICATION SERVICES",""
+"C1159059","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - IMPLEMENTATION","10/24/16 17:43:52","02/01/17 00:00:00","03/28/17 16:59:55","PENDING REVIEW","UpToDate Integration With Epic","UpToDate Anywhere in Epic Project produced by Wolters Kluwer.
+
+UpToDate is a software integrated with Epic.  Users can press a blue ""i"" icon embedded in Epic and are automatically linked with the UpToDate website where clinicaians have access to more than 10,500 topics in over 20 specialities with a single click.  There is a yearly subscription to the UpToDate website.  The UpToDate website is available via Mobile Devices and when accessed via Epic, passes login credentials.  Users will earn CME credits by using website and it is tracked internally.","JLGLEASON","50","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1162722","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","11/23/16 17:06:41","","","PENDING REVIEW","Research Virtual Classroom for HR","Research Virtual Classroom for HR - Routing to Intake Triage to look at and advise, see attachments:
+
+Email from Tara Wiedeman:
+At different times, for projects such as Epic, we’ve been asked to consider the use of technology as a way to provide training to our employees without relying on classroom or online learning.
+
+We are requesting a virtual classroom that will allow us the opportunity to provide more robust training to our employees and leaders but doesn’t require us to rely on physical classroom space.
+
+We would like this virtual classroom as a training option for the upcoming Kronos training that we are developing.  If we had this technology, we could have just a few master trainers (training remotely) that could facilitate multiple virtual classrooms across the organization.
+
+Without the virtual classroom, we would need more trainers and more physical classroom spaces to accommodate the Kronos training for employees and leaders.
+
+I’m happy to discuss in more detail.  Please let me know next steps and what other information you may need to move forward.  I will put in the PRF so that you can reference.
+
+Thanks!
+
+
+*See attached Word Document","HDKELLEY","750","INNOVATION","YES","INTAKEPROCESS","0","4 - LOW","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1162771","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","11/25/16 12:07:47","","","DEFERRED","AEAC: 31.3  Pilot Project for VT Research Dementia App Team (DESA)","Pilot Project for VT Research Dementia App Team (DESA)
+
+Anne M. Brown, Ph.D., is working with Drs. Trinkle and Bankole to submit a RAP grant for approval:
+=========================================
+Brief summary --
+
+Two of my students won the Global Health Hackathon sponsored by Carilion Clinic in Spring 2016. The winning app proposed to be a platform for mental health/cognition assessment to be taken in real time/real environment by individuals on smart devices as ""prescribed"" by a physician. Carilion would like to see what having this app piloted would look like. By having individuals answer questions (even taking already validated exams like MoCA) relevant to mental health/cognition in real time, more insight and data could be provided to a physician to better understand an individual's baseline and how events affect scores and (hypothesized) aid in physician diagnosis.  The RAP grant that is in preparation would be the pilot study to test this app, relevant to mild cognitive impairment (comparing to MoCA). The study is looking to better understand usability by both patient and physician, usage of digital platforms to test cognition (vs pen and paper test), and test out the flow of information relevant to collecting data on patients in this way and integrating that into an EMR.
+=========================================
+Keith, Barbara, Dr. Morgan, Dr, Speaker, Vicki R. and Ashley Quick met with Anne Brown and her team on Thu Nov 10 to review.
+
+There would be two phases:
+
+phase 1- The physician would access the patient record in the DESA application using a secure link from Epic that identifies the patient by the unique ID created in Epic.
+
+phase 2 - The DESA application would send back discrete values to Epic.","VJRIGGINS","1500","INNOVATION","YES","INTAKEPROCESS","0","2 - HIGH","EPIC (CACHE)","APPLICATION SERVICES",""
+"C1163332","INTAKE_NONCLINICAL_PRIORITIZATION","RFC - IMPLEMENTATION","4","RFC - RESEARCH","11/30/16 15:34:51","","","PENDING REVIEW","CTaC Evacuation Project - CCPT","CTaC Evacuation Project - CCPT
+
+
+Assess the needs for building out a space for CTaC to have an operations center in case of emergency.
+
+New Department:  CTaC needed in Maximo for this site
+
+Site Name:  CCPT
+
+Description:  CTaC Evacualtion Project
+
+Physical Address: McClanahan (Current CPTS Site)
+
+Contacts:  Chris Tuck, Mel Morris, Vasile Gocan
+
+Cost Center: 14-70-8341-800336
+
+Capital Project/Strata #: TBD
+
+Timeline:  TBD
+
+
+** Tasks to be spun off of this change:  Purchase/Install Hardware, Assess Phone/Gateway, Wireless, Cabling","HDKELLEY","250","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","","0","4 - LOW","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1164198","SOLUTIONS_DELIVERY_CLINICAL","SERVICE CATALOG REQUEST","2","ESS - RESEARCH","12/08/16 08:53:13","","","PENDING REVIEW","VNA: Move OB/GYN Ultrasounds at Riverside to VNA (Sectra)","OB/GYN Ultrasounds to VNA (Sectra)
+
+Software or Application: SECTRA PACS
+
+Requested By Date: 01/06/17 00:00:00
+
+Description:
+OB/GYN is consolidating 2 practices into 3 Riverside 2 North. The practices will procure two new Philips Affiniti ultrasounds that are dicom compatible. We would like to use Sectra PACS as a means to store and manage these images. PACS is already in the building and Clinical Engineering has validated that the ultrasounds meet the enterprise requirements to connect to PACS, however there are questions whether or not the VNA can accept ultrasound studies. Please advise.","SLUNDERWOOD","200","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","TRSTUCKEY","0","","SECTRA PACS","APPLICATION SERVICES",""
+"C1165208","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","1","ESS - RESEARCH","12/14/16 15:08:01","10/01/17 00:00:00","","PENDING CUSTOMER","2.7 Clockwise MD - (Contract Pending)","Clockwise MD is the System to replace I-Triage
+Requested By Date: 12/30/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Please arrange demonstration with Clockwise. System to replace I-Triage which is not renewing contracts. Karen Hodges has information
+Provide clinical and/or financial background information pertinent to the business need:
+Replace I-Triage for VelocityCare sites. Karen knows contacts.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix) To provide a means of pre-registration to the patients for our VelocityCare sites. This application provides wait times for the patients as well as robust reporting functionality.
+Has a product or vendor already been reviewed or selected? No- exploring options
+  Would there be an ongoing contract associated with this proposed solution? No contract required; can set up on a month-to-month basis
+  Would this solution be purchased or leased? null
+  Would the solution be hosted offsite in the ""cloud""? null
+  From what devices would the solution be accessed? tablets, front desk workstations, exam rooms &/or nurses' stations
+  What other vendors were researched and considered for this solution? none
+  Please list at least 2 reference locations (non-Carilion) that are using this product: null
+  Please provide the name of the selected vendor: Clockwise.md
+  Please provide the URL of the selected vendor's web site: https://clockwise.md/
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? I-Triage
+If this request is denied or delayed, what may happen as a result? I-Triage is not renewing contracts. VC sites would lose internet presence.
+Who is your financial advisor? Adrienne Sowers
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? Monthly subscription
+  What would the annual operating cost be? Depends on services
+  How many net new FTEs would be required for this solution? 0
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? No
+  Please check information types that apply: null
+Is this a clinical or non-clinical based system? Non-Clinical","MBLOWERY","750","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","TLFREEMAN","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1165352","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","2","ESS - IMPLEMENTATION","12/15/16 13:40:35","05/31/17 00:00:00","","IN PROGRESS","RaySearch - Replacement for Radiation Oncology Treatment Planning system","RaySearch: Replacement for Radiation Oncology Treatment Planning system
+Requested By Date: 12/16/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Replacement for Radiation Oncology Treatment Planning system
+Provide clinical and/or financial background information pertinent to the business need:
+Treatment planning system is required to design the treatment filds utilized for the radiation delivery.  Current system is
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Carilion Computers
+  What other vendors were researched and considered for this solution? Varian, Phillips
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Ironwood Cancer and Research Centers
+  Please provide the name of the selected vendor: RaySearch
+  Please provide the URL of the selected vendor's web site: http://raysearchlabs.com/
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? Our current Phillps ADAC treatment planning
+If this request is denied or delayed, what may happen as a result? Patient radiation treatments will be delayed and eventually stopped.
+Who is your financial advisor? Emily Brown / Rhonda Shannon
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","CPSARGENT","2","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","RDHUFFMAN","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1165874","SOLUTIONS_DELIVERY_CLINICAL","SERVICE CATALOG REQUEST","3","ESS - IMPLEMENTATION","12/20/16 12:10:55","09/29/17 00:00:00","","IN PROGRESS","Rauland Responder 5 - Nurse Call at CFMH","Is this for a new FTE (Full Time Employee)?
+
+No
+
+What device(s) will you be implementing?:
+
+PC / Computer: null
+
+Laptop: null
+
+Printer: null
+
+Scanner: null
+
+Webcam: null
+
+Other: Patient Call System
+
+Location: FRANKLIN MEMORIAL HOSPITAL
+
+Floor: Hospital wide
+
+Room: hospital wide
+
+Cost Center: 05-01-6000-300800
+
+Requested By Date: 01/31/17 00:00:00
+
+Description:
+Please install a new patient call system - see Roger Huffman","GGDARBY","500","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","RDHUFFMAN","0","","NOT.LISTED","HARDWARE SERVICES",""
+"C1166347","INTAKE_RAPID_ASSESSMENT","SOFTWARE REQUEST","3","ESS - RESEARCH","12/23/16 08:57:53","","","PENDING REVIEW","Muse v9 Upgrade","Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Muse v9 Upgrade
+Provide clinical and/or financial background information pertinent to the business need:
+This upgrade will keep us current and allow us to import non-GE waveforms
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Muse Carts, devices access Muse from a CITRIX-Published application
+  What other vendors were researched and considered for this solution? None
+  Please list at least 2 reference locations (non-Carilion) that are using this product: N/A Logging request to reconcile open Cardiology request with SET list
+  Please provide the name of the selected vendor: GE
+  Please provide the URL of the selected vendor's web site: ge.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Muse will fall behind on supported versions. We will not be able to take advantage of importing external waveforms.
+Who is your financial advisor? Adriane Sowers, Captial ID is 8128
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? 144,256 Capital ID is 8128
+  What would the annual operating cost be? no change from existing contracts
+  How many net new FTEs would be required for this solution? None
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","DPMARTIN","1500","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1166367","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","2","ESS - RESEARCH","12/23/16 09:49:08","","","PENDING REVIEW","Improving Hybrid OR & EP Invasive Procedure workflow","CORT:  Improving Hybrid OR & EP Invasive Procedure workflow
+Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Improving Hybrid OR workflow
+Provide clinical and/or financial background information pertinent to the business need:
+Currently there are two encounters created for certain cases in Hybrid OR. For TAVR cases, one Cath Lab and one OpTime encounter is created and procedure is documented in both encounters. It would be beneficial for number of reasons to combine two encounters into one case where documentation can be shared between Cupid and OpTime. Supplies from the Cath Lab/CS OR/Vas OR are used and sometimes this can create challenges with supply ordering and charging. It is hard to tell what charges are captured by Vas OR and what should be charged by the CathLab. This could potentially cause loss in revenue or overcharges.
+Similar challenges present with EP workflows.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? No
+  Would there be an ongoing contract associated with this proposed solution? null
+  Would this solution be purchased or leased? null
+  Would the solution be hosted offsite in the ""cloud""? null
+  From what devices would the solution be accessed? null
+  What other vendors were researched and considered for this solution? null
+  Please list at least 2 reference locations (non-Carilion) that are using this product: null
+  Please provide the name of the selected vendor: null
+  Please provide the URL of the selected vendor's web site: null
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Continue with existing process using existing workflows
+Who is your financial advisor? Benjamin Pinckard
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? N/A
+  What would the annual operating cost be? N/A
+  How many net new FTEs would be required for this solution? None
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","EXSABANOVIC1","3000","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","KMSAUNDERS","0","","EPIC CUPID (CARDIANT)","APPLICATION SERVICES",""
+"C1166368","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","12/23/16 09:52:13","","","PENDING REVIEW","ROSA Robotic System for Neurosurgery","Purchase of the ROSA robotic system for neurosurgery
+Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Purchase of the ROSA robotic system for neurosurgery
+Provide clinical and/or financial background information pertinent to the business need:
+Care of the epileptic patient who is refractory to medications
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? The robot itself
+  What other vendors were researched and considered for this solution? Proprietary
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Duke, Pittsburgh
+  Please provide the name of the selected vendor: Med Tech
+  Please provide the URL of the selected vendor's web site: http://www.medtech.fr/en/epilepsy
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? We will not be able to provide advanced epileptic services to our community---the primary purpose for bringing Dr. Mark Witcher on board
+Who is your financial advisor? Regina Martin
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? 526,300.00
+  What would the annual operating cost be? approx 12,000 for dispopsables
+  How many net new FTEs would be required for this solution? 0
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+To provide this services manually, the procedure can take 8-10 hours.  To provide using ROSA, the operative time reduces to about 2.5 hours.  The second part is that to perform manually, this requires a craniectomy (removal of skull flap) where the ROSA is minimally invasive and only requires a burr hole.
+Will confidential Carilion Clinic information be stored or transmitted by this system? No
+  Please check information types that apply: null
+Is this a clinical or non-clinical based system? Clinical","SWLOVERN","750","INNOVATION","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1166373","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","2","ESS - RESEARCH","12/23/16 10:08:48","","","PENDING REVIEW","VNA: Pentax Archive - Centralize the archival of legacy endoscopy images","Centralize the archival of legacy endoscopy image studies from Pentax systems at CRMH, CFMH, CNRVMC and CRCH as they are antiquated hardware running the Windows 2003 server operating system.
+Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Centralize the archival of legacy endoscopy image studies from Pentax systems at CRMH, CFMH, CNRVMC and CRCH as they are antiquated hardware running the Windows 2003 server operating system.
+Provide clinical and/or financial background information pertinent to the business need:
+These image studies are part of the patients medical records.  Note the response to question #3 below is regulatory, while this more of legal requirement, which was not a selection.
+What are you attempting to achieve and what benefits are you attempting to attain? Regulatory requirement
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? No
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? PC's
+  What other vendors were researched and considered for this solution? No, as this was a migration from an existing system that had a priority format
+  Please list at least 2 reference locations (non-Carilion) that are using this product: N/A
+  Please provide the name of the selected vendor: Pentax
+  Please provide the URL of the selected vendor's web site: http://www.pentaxmedical.com
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? Legacy Pentax EndoPro system
+If this request is denied or delayed, what may happen as a result? Servers will need to be taken off line as they are security liability due to the Windows 2003 server operating system.
+Who is your financial advisor? Elaine Sullivan
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","CDRIHA","600","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1166374","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","2","ESS - RESEARCH","12/23/16 10:15:56","02/16/18 00:00:00","","IN PROGRESS","Atlassian Suite Implementation (Project and Portfolio Management)","Implement Atlassian Suite of Project and Portfolio Management Products for TSG
+Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Implement Atlassian Suite of Project and Portfolio Management Products for TSG
+Provide clinical and/or financial background information pertinent to the business need:
+TSG does not have a system designed to manage and coordinate projects, programs, and/or portolios. Manual systems have been in place for years and we need to improve our service delivery in this endeavor.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Carilion Clinic personal computers
+  What other vendors were researched and considered for this solution? A full list of evaluated solutions is available.
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Nasa, Kaiser Permanente
+  Please provide the name of the selected vendor: Atlassian
+  Please provide the URL of the selected vendor's web site: www.atlassian.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Continued performance challenges at coordinating and delivering projects
+Who is your financial advisor? Elaine Sullivan
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee
+Is this a clinical or non-clinical based system? Non-Clinical","DPMARTIN","4600","WORKFORCE FOR THE FUTURE","YES","KLLAWTON","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1166377","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","2","ESS - COMPLETION","12/23/16 10:21:12","08/13/17 00:00:00","","IN PROGRESS","Qpath Phase 2: Integration with Epic for Ultrasound in ED","Qpath Phase 2: Integration of a new Ultrasound software, Qpath, with EPIC through order entry and results
+Priority HIGH, Level 1: Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Integration of a new Ultrasound software, Qpath, with EPIC through order entry and results
+Provide clinical and/or financial background information pertinent to the business need:
+We recently purchased the Qpath system in an effort to integrate our US studies into EPIC.  Phase II of this project is incorporating the orders and results of these US tests into the EPIC system.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? This is a web-based product accessible from all Carilion devices
+  What other vendors were researched and considered for this solution? Sonosite
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Hennepin County Medical Center
+  Please provide the name of the selected vendor: Telexy Health
+  Please provide the URL of the selected vendor's web site: http://www.telexy.com/
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Loss of revenue from US tests performed in the ED
+Who is your financial advisor? Kari Callanan
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Increased revenue with Qpath integration
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","JMRODGERS","300","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","CASTOKES","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1166861","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","1","RFC - RESEARCH","12/28/16 13:27:31","","","DEFERRED","Phase 2- Evolent Identifi / Epic Integration","Evolent Identifi / Epic Integration Phase 2","DMLITTLEPAGE","3000","FINANCIAL VITALITY","YES","RBFARRIS","0","1 - CRITICAL","EPIC CARE AMBULATORY","APPLICATION SERVICES",""
+"C1166873","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","3","RFC - IMPLEMENTATION","12/28/16 14:01:17","02/28/18 00:00:00","","IN PROGRESS","MU3/MIPS Project","MU3/MIPS Project","DMLITTLEPAGE","700","FINANCIAL VITALITY","YES","RBFARRIS","0","","EPIC CARE AMBULATORY","APPLICATION SERVICES",""
+"C1167885","SOLUTIONS_DELIVERY_NONCLINICAL","EPIC SERVICES REQUEST","1","ESS - RESEARCH","01/05/17 11:03:53","","","PENDING CUSTOMER","2.12 Process Credit Card transactions using the EPIC Credit Card Framework / Terminals","We are currently processing credit card transactions using standalone credit card terminals that are connected to a dedicated analog phone line with no connection to Epic. Utilizing the Epic Credit Card Framework we would like to have credit card terminals that are connected to a computer via USB and have transactions processed through Epic.
+
+Epic application module to be optimized: Ambulatory
+
+Improvement Initiative this Optimization will effect: Throughput and Access
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value:
+Credit card transaction processing will be improved as payments will be processed and posted to the patient account in Epic without manual entry of amount. Reconciliation of credit card transactions would be streamlined from a practice/revenue cycle/accounting perspective. Credit card receipt information is captured in Epic without having to store paper receipts.","JHLAPUASA","750","FINANCIAL VITALITY","YES","SLMOREJON","0","","EPIC PROFESSIONAL BILLING","APPLICATION SERVICES",""
+"C1168169","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","01/06/17 16:43:30","08/28/17 00:00:00","","IN PROGRESS","TSG Hosting to support rebuild by Modea (www.carilionclinic.org)","www.carilionclinic.org rebuild by Modea
+
+John Taylor [john.taylor@modea.com], Sr. Project Manager from Modea, requested a Linux VM today so I am opening this RFC to track requests for any work that TSG needs to do to support Modea and MRC for this project.
+
+Per Tyler Leskanic [tyler.leskanic@modea.com], Modea Software Engineering Lead Developer, he would like Ubuntu 16.04 VM if possible.
+
+This is to support the migration of www.carilionclinic.org from Acquia to an in-house solution.
+
+Note: Emily Gentry ?[emily.gentry@modea.com]?? is another contact for this project.","VJRIGGINS","836","HEALTHY COMMUNITIES","YES","KLLAWTON","0","2 - HIGH","CARILIONCLINIC.ORG","WEB SERVICES",""
+"C1168811","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","3","ESS - IMPLEMENTATION","01/11/17 17:54:54","03/23/18 00:00:00","","IN PROGRESS","Syngo Upgrade to v20","Syngo Upgrade to v20
+Requested By Date: 04/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+We have received approval for the Syngo upgrade to v20 and would like to proceed with implementation.  Additional servers were budgeted for the regional facilities to increase performance and replace existing infrastructure.
+Provide clinical and/or financial background information pertinent to the business need:
+
+Funding for your project has been approved. Action is required to continue the ordering process.
+Capital ID: A0814
+Name: Syngo Upgrade
+If this proposal is related to a PRF, please send this notification with the PRF number to Jennifer T. Smith in TSG.
+If this proposal is related to a construction project, please send this notification electronically to your Project Management contact.
+If this proposal is for medical equipment, please send this notification, a completed and signed Material Request Form, and the quotation from the vendor electronically to Travis Hurt in Corporate Purchasing.
+Michelle Blanchard: 224-5334
+Michelle McNeil: 224-5046
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Carilion PCs
+  What other vendors were researched and considered for this solution? N/A
+  Please list at least 2 reference locations (non-Carilion) that are using this product: N/A
+  Please provide the name of the selected vendor: Siemens - Syngo Dynamics
+  Please provide the URL of the selected vendor's web site: N/A
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? This upgrade has been approved
+Who is your financial advisor? Benjamin Pinckard
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? 158,343.00
+  What would the annual operating cost be? Contract in place
+  How many net new FTEs would be required for this solution? None
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Software was provided free of charge from Siemens. Need to purchase hardware and provide training.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","EXSABANOVIC1","400","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","PEKANODE","0","","SYNGO DYNAMICS","APPLICATION SERVICES",""
+"C1168812","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","1","ESS - IMPLEMENTATION","01/11/17 18:13:00","07/01/17 00:00:00","","IN PROGRESS","PEVCO: Pneumatic tube system replacement","PEVCO: An upgrade of the pneumatic tube system software is in emergent need of an upgrade.
+[INTAKE] Requested By Date: 02/15/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+An upgrade of the pneumatic tube system software is in emergent need of an upgrade.
+Provide clinical and/or financial background information pertinent to the business need:
+The pneumatic tube system is used to transport clinical product throughout the facility.  The current operational software and hardware are outdated and in danger of failure.  We are working with the vendor Pevco to provide us with the necessary software and hardware upgrades to maintain continuous operation.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? Yes
+  From what devices would the solution be accessed? facility maintenance and clinical computers
+  What other vendors were researched and considered for this solution? SwissLog
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Children's Kings Daughters - Norgfolk, VA  Len Rainey 757-668-7477    /  Medstar Union Memorial Hospital - Baltimore, MD  Gaylon Sowards - 410-554-2513
+  Please provide the name of the selected vendor: Pevco
+  Please provide the URL of the selected vendor's web site: www.pevco.com
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? Existing tube system
+If this request is denied or delayed, what may happen as a result? The current tube system would fail.  The staff would have to physically deliver products, labwork, etc. to the appropriate locations.
+Who is your financial advisor? Emily N. Brown / Michelle McNeil (Capital)
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? $130,000
+  What would the annual operating cost be? Minimal cost other than labor to clean system or PM maintenance
+  How many net new FTEs would be required for this solution? No additional FTEs
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+The cost savings would be due to the reduction in labor costs to maintain and troubleshoot the existing aging system.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Non-Clinical","DDANIEL","500","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","TLFREEMAN","0","","PEVCO","APPLICATION SERVICES",""
+"C1169525","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","01/17/17 11:03:01","12/14/18 00:00:00","","IN PROGRESS","Sleep Lab - Integration with Epic","Sleep Lab - Epic Integration","RDWEBB","750","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","JMYERS","0","3 - MEDIUM","COMPUMEDICS PROFUSION","APPLICATION SERVICES",""
+"C1169685","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","01/17/17 17:18:46","07/25/17 00:00:00","","IN PROGRESS","Edison / Modea Project Phase II","Edison / Modea Project Phase II
+	
+High Level Scope:
+1.  Native mobile app version of the Edison web application
+2.  Integration with TMS (Formerly Four Rivers)
+3.  Edison application feature enhancements","TLFREEMAN","1000","INNOVATION","YES","KLLAWTON","0","3 - MEDIUM","EDISON","APPLICATION SERVICES",""
+"C1170058","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","01/19/17 14:08:16","","","PENDING REVIEW","Olympus Knowledge Enterprise Software Solution For Managing Endoscopy Images","Requested By Date: 02/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Investigate implementing Olympus Knowledge Enterprise software for managing endoscopy images
+Provide clinical and/or financial background information pertinent to the business need:
+Increased efficiency of endoscope management and reduce expenses due to improved inventory management as well as improved quality control for infection management.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? No
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Olympus endoscopy system and scope processors
+  What other vendors were researched and considered for this solution? Yes
+  Please list at least 2 reference locations (non-Carilion) that are using this product: TBD
+  Please provide the name of the selected vendor: OLYMPUS
+  Please provide the URL of the selected vendor's web site: TBD
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Lack of management for scopes which would affect quality control, potentially affecting patient outcomes
+Who is your financial advisor? Rhonda Shannon
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Automate multiple manual operations as well as potentially reduce scope inventory.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee, Other
+Is this a clinical or non-clinical based system? Clinical","CDRIHA","1500","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1170085","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","01/19/17 15:24:08","09/29/17 00:00:00","","IN PROGRESS","Office 365 POC Configuration and Testing","Office 365 Proof of Concept Configuration and Testing","CARICKETTS","2620","WORKFORCE FOR THE FUTURE","YES","KLLAWTON","0","1 - CRITICAL","EXCHANGE ","MESSAGING SERVICES",""
+"C1170528","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","01/24/17 09:31:39","","","DEFERRED","Roundtable Analytics and ED Analytical  Predictive Modeling Software Solution","The Department of Emergency Medicine is partnering with Roundtable Analytics on an analytical  predictive modeling software tool
+Requested By Date: 02/10/17 00:00:00
+Provide clinical and/or financial background information pertinent to the business need:
+This tool will allow us to optimize provider and nurse staffing for the ED at RMH.  It could enhance our ability to appropriately staff the dept. during and after upcoming renovations.
+What are you attempting to achieve and what benefits are you attempting to attain? Must do to prevent patient harm
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Web-based product
+  What other vendors were researched and considered for this solution? Currently, this is the only vendor offering this product
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Carolinas Medical Center, U of Florida
+  Please provide the name of the selected vendor: Roundtable Analytics
+  Please provide the URL of the selected vendor's web site: http://roundtableanalytics.com/
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Inefficient staffing of the ED
+Who is your financial advisor? Kari Harvey
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? 50,000
+  What would the annual operating cost be? 60,000
+  How many net new FTEs would be required for this solution? 0
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+There is a potential cost savings associated with increased patient flow due to the optimized staffing model obtained with this product
+Will confidential Carilion Clinic information be stored or transmitted by this system? No
+  Please check information types that apply: null
+Is this a clinical or non-clinical based system? Non-Clinical","JMRODGERS","750","INNOVATION","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1173404","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - OPTIMIZATION","2","RFC - IMPLEMENTATION","02/10/17 11:07:03","09/29/17 00:00:00","","IN PROGRESS","Kronos Extensions: Forecaster and Target Intelligence","Kronos Extensions: Forecaster and Target Intelligence","DRAQUILO","438","WORKFORCE FOR THE FUTURE","YES","DRAQUILO","0","2 - HIGH","KRONOS SCHEDULER","APPLICATION SERVICES",""
+"C1173531","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","2","RFC - IMPLEMENTATION","02/10/17 18:13:50","11/01/17 00:00:00","","IN PROGRESS","Tangier / Peake Physician Scheduling Project","Tangier / Peake Physician Scheduling Project","TLFREEMAN","40","WORKFORCE FOR THE FUTURE","YES","TLFREEMAN","0","2 - HIGH","UNLISTED  APPLICATION","APPLICATION SERVICES",""
+"C1173532","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - OPTIMIZATION","2","RFC - RESEARCH","02/10/17 18:32:54","11/30/17 00:00:00","","PENDING CUSTOMER","Kronos Absence Management (Attendance)","Kronos Absence Management (Attendance)","DRAQUILO","470","WORKFORCE FOR THE FUTURE","YES","DRAQUILO","0","2 - HIGH","KRONOS TIMEKEEPER","APPLICATION SERVICES",""
+"C1173533","SOLUTIONS_DELIVERY_CLINICAL","RFC - OPTIMIZATION","3","RFC - RESEARCH","02/10/17 18:44:53","02/28/18 00:00:00","","IN PROGRESS","Kronos Extension: Workload Manager","Kronos Extension: Workload Manager","DRAQUILO","275","WORKFORCE FOR THE FUTURE","YES","DRAQUILO","0","2 - HIGH","KRONOS MOBILE / OTHER","APPLICATION SERVICES",""
+"C1173914","SOLUTIONS_DELIVERY_CLINICAL","EPIC SERVICES REQUEST","1","ESS - RESEARCH","02/14/17 09:43:20","","","PENDING CUSTOMER","5 Display lab cost data in Epic","S&D- CRITICAL  PRIORITY, SOLUTIONS DELIVERY: determine how to display lab cost data in Epic
+
+Epic application module to be optimized: Inpatient
+
+Improvement Initiative this Optimization will effect: Cost Containment
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value:
+helps providers understand the cost of test they will be performing","MLSPEAKER","3000","FINANCIAL VITALITY","YES","MMJONES","0","","EPIC CARE INPATIENT ","APPLICATION SERVICES",""
+"C1174335","INTAKE_IT_GOVERNANCE","EPIC SERVICES REQUEST","3","ESS - RESEARCH","02/15/17 14:40:43","","","PENDING REVIEW","Lung Cancer Screening Build in Epic Radiant","I would like to request the the lung cancer screening upgrade module be built in order to better track lung cancer screening patients, recommended follow up and outcomes.
+
+Epic application module to be optimized: Radiology (Radiant)
+
+Improvement Initiative this Optimization will effect: Quality and Safety
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value:
+AEAC:  The lung cancer screening module will allow functionality much like what is in the mammography module.  Addition of this would allow us to send patient result and follow up letters, track recommended follow-ups and call patients to schedule.  Better tracking of biopsy and result outcomes and a standardized approach in which to submit required patient demographic data to the ACR.","LLATKINSON","3000","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","EPIC RADIANT ","APPLICATION SERVICES",""
+"C1175564","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","02/21/17 10:55:19","12/31/17 00:00:00","","IN PROGRESS","Salesforce Project (Multiple Projects)","RFC For Salesforce Project","RKPERRY","1200","INNOVATION","YES","MGWHEELER","0","2 - HIGH","SALESFORCE","APPLICATION SERVICES",""
+"C1175600","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","2","ESS - IMPLEMENTATION","02/21/17 12:04:16","09/06/17 00:00:00","","IN PROGRESS","MRO to replace CIOX","MRO to replace CIOX
+
+Requesting new software / Release of Information Vendor for the system.
+Requested By Date: 08/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Requesting new software / Release of Information Vendor for the system.  Currently, Ciox is providing ROI services for the organization.  Their contract / service will be replaced with a new vendor. Requesting project for operational and technical services for successful implementation.
+Provide clinical and/or financial background information pertinent to the business need:
+Replacing current vendor, Ciox for System level support for Release of Information services for our patients, clients and stakeholders.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Carilion issued PCs
+  What other vendors were researched and considered for this solution? N/A
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Unknown information from submitter of request
+  Please provide the name of the selected vendor: MRO
+  Please provide the URL of the selected vendor's web site: www.mrocorp.com
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? Release of Information
+If this request is denied or delayed, what may happen as a result? Lack in ROI support  for the  organizaiton, patients, clients and stakeholders
+Who is your financial advisor? Unknown information provided to the submitter
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+savings for our clients, patients, and stakeholders
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Non-Clinical","ARBARGER","550","FINANCIAL VITALITY","YES","RBFARRIS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1176561","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","02/23/17 11:25:19","12/08/17 00:00:00","","IN PROGRESS","Sunquest Lab Collection Manager implementation","Wireless connectivity is all that will be needed from Carilion at this time.
+
+
+
+To decrease risk of mislabeling of labs specimens, we request that ""Collection Manager"" (lab label printers) be installed in each ED room and at each ED nurses station.
+Requested By Date: 12/24/16 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+To decrease risk of mislabeling of labs specimens, we request that ""Collection Manager"" (lab label printers) be installed in each ED room and at each ED nurses station.
+Provide clinical and/or financial background information pertinent to the business need:
+Mislabeling of lab specimens can results in the wrong labs getting entered into the wrong medical record, potentially, leading to inappropriate admissions. It also can lead to failure to meet regulatory standards.
+What are you attempting to achieve and what benefits are you attempting to attain? Must do to prevent patient harm
+Has a product or vendor already been reviewed or selected? No
+  Would there be an ongoing contract associated with this proposed solution? null
+  Would this solution be purchased or leased? null
+  Would the solution be hosted offsite in the ""cloud""? null
+  From what devices would the solution be accessed? null
+  What other vendors were researched and considered for this solution? null
+  Please list at least 2 reference locations (non-Carilion) that are using this product: null
+  Please provide the name of the selected vendor: null
+  Please provide the URL of the selected vendor's web site: null
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Further mislabeling errors that can lead to patient harm.
+Who is your financial advisor? Carrie Callahan
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Employee, Patient
+Is this a clinical or non-clinical based system? Clinical","EWBROWN","350","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","JMYERS","0","4 - LOW","UNLISTED  APPLICATION","APPLICATION SERVICES",""
+"C1176702","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","1","RFC - RESEARCH","02/23/17 15:26:28","09/30/18 00:00:00","","IN PROGRESS","2.3 Epicare EAP & Security Refactoring Project - (Access to Care)","Epicare EAP & Security Refactoring Project - FY18","DPMARTIN","1000","INNOVATION","YES","DPMARTIN","0","1 - CRITICAL","EPIC CARE ORDERSET","APPLICATION SERVICES",""
+"C1179529","INTAKE_DEFERRED_REQUESTS","SOFTWARE REQUEST","4","ESS - RESEARCH","03/06/17 16:21:44","","","DEFERRED","EPIC Rover Solution","Requested By Date: 01/15/18 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Epic's Rover application was reviewed by System Nursing Informatics and Technology Council and overwhelmingly requested to have this submitted as a technology solution to enhance workflow.
+Provide clinical and/or financial background information pertinent to the business need:
+Rover would support mobile documentation for quick items such as VS, Safety rounds, PRN Medications and other items where a WOW would not be needed.  This could support Respiratory workflow as well.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Iphone's deployed for Nurse Call
+  What other vendors were researched and considered for this solution? None as Epic Rover integrates wtih current EMR/documentation system
+  Please list at least 2 reference locations (non-Carilion) that are using this product: University of Mississippi Medical Center; Scripps Health; Univ of Colorado
+  Please provide the name of the selected vendor: Epic
+  Please provide the URL of the selected vendor's web site: www.epic.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Additional WOW carts may be needed;  RT solution to support documentation may be needed
+Who is your financial advisor? Unknown
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","PAGALLAGHER","1500","WORKFORCE FOR THE FUTURE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1180373","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","2","ESS - RESEARCH","03/09/17 07:59:48","","","PENDING CUSTOMER","Provide assisted living pharmacy services to Westlake","Need Salem Pharmacy Qs/1 upgraded to Qs/1 Primecare
+Provide clinical and/or financial background information pertinent to the business need:
+approved capital project #8734
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? PCs
+  What other vendors were researched and considered for this solution? epic, scriptpro
+  Please list at least 2 reference locations (non-Carilion) that are using this product: 1
+  Please provide the name of the selected vendor: Qs/1 Primecare
+  Please provide the URL of the selected vendor's web site: qs1.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? lose contract
+Who is your financial advisor? Carolyn Brandt
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? already approved
+  What would the annual operating cost be? 874
+  How many net new FTEs would be required for this solution? 0
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+needed to obtain additional cash flow
+Will confidential Carilion Clinic information be stored or transmitted by this system? No
+  Please check information types that apply: null
+Is this a clinical or non-clinical based system? Clinical","CEALVAREZ","250","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","USLEE","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1182535","SOLUTIONS_DELIVERY_CLINICAL","SERVICE CATALOG REQUEST","2","ESS - RESEARCH","03/16/17 19:32:12","12/30/17 00:00:00","","IN PROGRESS","EMU/EEG system upgrade","EMU system upgrade
+
+Is this for a new FTE (Full Time Employee)?
+
+Yes
+
+What device(s) will you be implementing?:
+
+PC / Computer: null
+
+Laptop: null
+
+Printer: null
+
+Scanner: null
+
+Webcam: null
+
+Monitor: null
+
+Docking Station: null
+
+Keyboard: null
+
+Mouse: null
+
+Other: EEG / EMU Lab
+
+Location: ROANOKE MEMORIAL HOSPITAL
+
+Floor: 7
+
+Room: EMU Control Room
+
+Cost Center: 01-01-7033-800600
+
+Requested By Date: 05/31/17 00:00:00
+
+Description:
+This request was submitted via Pbase (206191). The current EMU/EEG system needs to be upgraded due to the addition of new EMU Doc.  Current hardware is vendor provided. Desktops would be reused, but need to be placed on the domain. The server needs to be upgraded and the VM environment can be used. There is currently two Citrix servers that can possibly be reused. If not, VM can be used for Citrix. Current studies stored on local NAS will need to be moved like the SLAB. Current data is possibly in the 30-40TB range. The new type of studies will exceed a TB per study depending on the number of days the patient is monitored.","RDHUFFMAN","132","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","CASTOKES","0","","NOT.LISTED","HARDWARE SERVICES",""
+"C1183166","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","03/20/17 16:03:58","","","IN PROGRESS","HeartIT Phase 2 - Implement structure reports","HeartIT Phase 2
+Requested By Date: 03/21/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+We have implemented a Phase I of the Heart IT project. Currently providers can view studies on HeartIT software and use PowerScribe to dictate report. The goal is to proceed with Phase II and replace PowerScribe reports with the structured report.  Kirk was the project manager and the decision was made to implement Heart IT project in phases as we were working with Compliance to answer questions regarding image sharing.  It was important to move forward as the Leonardo system is outdated and not supported any longer.
+Provide clinical and/or financial background information pertinent to the business need:
+We received a capital approval to implement Phase I and Phase II. We are being asked to pay remaining balance of $51,182.50 upon installation/Go Live. I don't believe software is fully implemented until we complete phase II and report is created using structured reports.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Any carilion device is compatible as this is web based application
+  What other vendors were researched and considered for this solution? Multiple
+  Please list at least 2 reference locations (non-Carilion) that are using this product: N/A
+  Please provide the name of the selected vendor: Heart IT (Precession software)
+  Please provide the URL of the selected vendor's web site: www.http://heartit.com/
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? Leonardo system from Siemens
+If this request is denied or delayed, what may happen as a result? We may need to pay remaining balance and the project is not fully implemented. In addtion physicians may be less likely to use structured reporting if not implemented soon.
+Who is your financial advisor? N/A - project approved
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee, Other
+Is this a clinical or non-clinical based system? Clinical","EXSABANOVIC1","750","INNOVATION","YES","INTAKEPROCESS","0","","HEARTIT","APPLICATION SERVICES",""
+"C1185343","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","2","ESS - RESEARCH","03/28/17 16:32:09","","","PENDING REVIEW","Qs/1 NRX system Upgrade and add SharpRx/ShipRx mail order module","Upgrade Qs/1 NRX system to SharpRx and add ShipRx mail order module
+
+Provide clinical and/or financial background information pertinent to the business need: software replacement due to age of software
+
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+
+Has a product or vendor already been reviewed or selected? Yes
+
+Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? PCs
+  What other vendors were researched and considered for this solution? Epic, ScriptPro
+  Please list at least 2 reference locations (non-Carilion) that are using this product: University of Michigan, Novant
+  Please provide the name of the selected vendor: Qs/1
+  Please provide the URL of the selected vendor's web site: qs1.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? outdated software
+Who is your financial advisor? Carolyn Brandt
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? $50K
+  What would the annual operating cost be? $800
+  How many net new FTEs would be required for this solution? 0
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee, Financial, Other
+Is this a clinical or non-clinical based system? Clinical","CEALVAREZ","360","FINANCIAL VITALITY","YES","BXDONALD","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1188353","INTAKE_RAPID_ASSESSMENT","SOFTWARE REQUEST","2","ESS - RESEARCH","04/07/17 10:56:36","","","PENDING REVIEW","VNA: Move All Enterprise Image Storage to VNA (including non-radiology and non-cardiology)","[USL] Requested By Date: 05/15/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+We need an enterprise Image Storage Solution for non-radiology and non-cardiology images.  There needs to be a method for accessioning and indexing the images.  Also, clinicians will need be ability to access via an enterprise viewer.
+
+Please review RFC C1164198 & Problem PM10837 for background information.
+Provide clinical and/or financial background information pertinent to the business need:
+The TSG Medical Imaging Team has several requests from Urology, ED, Amb, OB/GYN, Endo, etc. requesting the ability store and retrieve their acquired images long-term.  Also, PISO is also require that a solution.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? No
+  Would there be an ongoing contract associated with this proposed solution? null
+  Would this solution be purchased or leased? null
+  Would the solution be hosted offsite in the ""cloud""? null
+  From what devices would the solution be accessed? null
+  What other vendors were researched and considered for this solution? null
+  Please list at least 2 reference locations (non-Carilion) that are using this product: null
+  Please provide the name of the selected vendor: null
+  Please provide the URL of the selected vendor's web site: null
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? There will not be a method to store/access the non-radiology/cardiology images long-term.  There may be issues with reimbursement and compliance.
+Who is your financial advisor? Elaine Sullivan
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","TRSTUCKEY","3000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1188771","SOLUTIONS_DELIVERY_CLINICAL","RFC - OPTIMIZATION","2","RFC - IMPLEMENTATION","04/10/17 14:09:56","08/30/17 00:00:00","","IN PROGRESS","Lexicomp implementation","Implement Lexicomp to replace Micromedix for Drug info and Patient education","PBTRIGGER","100","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","CASTOKES","0","2 - HIGH","UNLISTED  APPLICATION","APPLICATION SERVICES",""
+"C1189397","SOLUTIONS_DELIVERY_CLINICAL","RFC - OPTIMIZATION","3","RFC - RESEARCH","04/12/17 14:21:52","","","DEFERRED","Research Clinvations RAF Proposal for Carilion Implementation","Research Clinvations RAF Proposal for Carilion Implementation","DMLITTLEPAGE","3000","HEALTHY COMMUNITIES","YES","RBFARRIS","0","1 - CRITICAL","EPIC CARE AMBULATORY","APPLICATION SERVICES",""
+"C1189848","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","2","RFC - RESEARCH","04/13/17 16:50:06","04/20/18 00:00:00","","IN PROGRESS","3M 360 Encompass Upgrade to Release 2","The current 3M 360 Encompass product in use at Carilion is the originally installed Release 1 version.  Release 1 will be sunsetted at the end of 2018 (12/31/18).  The implmentation period for Release 2 is significant.  The implementation and training fees for Release 2 will also be significant.  (Order of Magnitude estimate in the $1 million range).
+
+The clients will need to make certain configuration and component decisions as a part of arriving at a final proposal.  The intent of this RFC is to work with clients and other TSG teams to develop the final proposal for the Release 2 upgrade.  A subsequent RFC will be submitted for actual implementation once the project is approved.","GTWOLFORD","1915","FINANCIAL VITALITY","YES","JMYERS","0","3 - MEDIUM","3M ENCOMPASS 360","APPLICATION SERVICES",""
+"C1189903","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","2","RFC - RESEARCH","04/14/17 09:07:46","","","PENDING REVIEW","Phynd - Provider information subscription service for Epic and Cactus","This RFC is to develop the proposal for acquiring and implementing the Phynd provider information product.  If implemented as proposed, Phynd will eliminate our need to manually research/validate external provider information (address, phone, fax, license, etc.) and enable us to interface that information to the existing Cactus and Epic (SER masterfile) systems.
+
+The solution will include costs for licensing and implementation from Phynd as well as from Cactus and Epic.  Both the proposal development and the eventual implementation (via a separate RFC) will require input from the user community, TSG application support team (Administrative Applications/SER), integration team, Chief IT Architect, Carilion Privacy and Information Security, and contracting resources.","GTWOLFORD","1500","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","3 - MEDIUM","UNLISTED  APPLICATION","APPLICATION SERVICES",""
+"C1190012","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","4","ESS - RESEARCH","04/14/17 14:28:04","","","PENDING REVIEW","KPI Fire","Project  / Portfolio Solution for Process Improvement / Quality
+Requested By Date: 08/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+1. Creating a list of active improvement projects in the organization
+2. Understanding what strategic initiative(s) a project is aligned to
+3. Avoid recreating the wheel via a searchable knowledge base of ACTIVE and COMPLETED projects
+4. Provide facilitation tools to assist teams working on continuous improvement projects
+
+NOTE:  THIS PROJECT IS UNDER EVALUATION.  PER DOUG MARTIN'S REQUEST, THE PURPOSE OF THIS SUBMISSION IS TO GIVE A HEADS-UP ON THE POTENTIAL FORMAL REQUEST TO COME.  ALTHOUGH THE SOFTWARE HAS BEEN DESIGNATED FOR KRISTEN GORMAN, IT IS INTENDED TO BE AN ENTERPRISE-LEVEL PRODUCT (no 'enterprise' option in the 'Requested for' field above).
+
+https://www.kpifire.com/
+Provide clinical and/or financial background information pertinent to the business need:
+The organization currently has no way of knowing what improvement projects are currently being worked on, nor what strategic goals the projects align to.  Thus, as an organization we may dedicate resources to solving a problem that does little or nothing to advance the organization's strategic goals.  The software also provides the ability to load continuous improvement frameworks/methodologies.  This facilitates the efficient and effective execution of an improvement project.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? No
+  Would there be an ongoing contract associated with this proposed solution? null
+  Would this solution be purchased or leased? null
+  Would the solution be hosted offsite in the ""cloud""? null
+  From what devices would the solution be accessed? null
+  What other vendors were researched and considered for this solution? null
+  Please list at least 2 reference locations (non-Carilion) that are using this product: null
+  Please provide the name of the selected vendor: null
+  Please provide the URL of the selected vendor's web site: null
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? As an organization, we continue to reinvent the wheel.  We continue lauching projects that my not align to a strategic objective.  We may continue to overextend our people with projects that do not impact higher priority needs.
+Who is your financial advisor? Rhonda Shannon
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+As I mentioned earlier, we are at the initial phase of determining if the product will potentially meet our needs.  Regarding cost savings, we will arrive at and execute solutions to problems much efficiently and effectively.  If we decide to go forward with a request to purchase the project, we can provide a more detailed financial analysis then.
+Will confidential Carilion Clinic information be stored or transmitted by this system? No
+  Please check information types that apply: null
+Is this a clinical or non-clinical based system? Non-Clinical","PNOQUINN","400","WORKFORCE FOR THE FUTURE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1190206","SOLUTIONS_DELIVERY_NONCLINICAL","SERVICE CATALOG REQUEST","2","ESS - IMPLEMENTATION","04/17/17 10:09:00","01/15/18 00:00:00","","IN PROGRESS","Decommission the InfiniVault archive (Syngo Dynamics)","Decommission the InfiniVault archive and migrate / store the data on the VNA
+Software or Application: SYNGO DYNAMICS
+
+Requested By Date: 00:00:00
+
+Description:
+SITUATION
+The Siemens Syngo Dynamics (sD) Cardiology archive, ProStor InfiniVault, current state:
+•	Supported 1TB tape cartridge capacity has been reached.
+•	The 1TB tapes cartridges are being replaced with 2TB tapes (not an officially supported version).
+•	Both the primary and secondary archive resides in the same location.  Thus, based on our IBM Business Resiliency program the InfiniVault cannot be used in an active recovery environment.
+
+BACKGROUND
+•	The Siemens sD cardiovascular studies were originally slated to be migrated to the Vendor Neutral Archive (VNA).  But, the migration was postponed due to Siemens’ proprietary annotation storage process.  If migrated in this state, clinicians could not view annotations via the enterprise viewer.  They would only be accessible within the sD application.
+•	We are currently in the process of upgrading sD.  Once the upgrade is complete, any newly acquired images will store annotations in a standard format.
+
+ASSESSMENT
+•	We need to replace or upgrade the InfiniVault system. The decision will affect the storage and retrieval processes to allow for industry standard communication protocols and the ability to integrate the mandatory IBM Resiliency program.
+
+RECOMMENDATION
+1.	Our recommendation is to decommission the InfiniVault archive and migrate / store the data on the VNA.  This will provide seamless integration with the IBM Resiliency program. By doing so, it will also allow all referring clinicians the ability to view cardiovascular images, to include annotations, within EPIC Chart Review with the EPIC link.  Estimated cost would be $420k.
+2.	Alternative – Continue replacing the 1TB tape cartridges with 2TB tapes.  At our current burn-rate, we estimate capacity would be reached within 40 months.
+a.	Risks include:
+i.	Inability to recover the archive from the secondary datacenter.
+ii.	The 2TB cartridges are not officially supported by the vendor.
+iii.	Future migration costs will rise as there will be more studies on the InfiniVault to migrate.
+
+Per Elaine Sullivan (TSG Financial Advisor), the costs to migrate sD images to the VNA would be an operational expense.  Also, since this is an enterprise application, it should be covered under a TSG cost center.","TRSTUCKEY","3000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","LLWALKIEWICZ","0","","SYNGO DYNAMICS","APPLICATION SERVICES",""
+"C1190408","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - OPTIMIZATION","2","RFC - IMPLEMENTATION","04/17/17 14:35:14","12/01/17 00:00:00","","IN PROGRESS","Remediation of vulnerabilities and security concerns","This is a parent / master RFC for the remediation of vulnerabilities and security concerns documented as the result of recent penetration testing.","JEKRISCH","1600","FINANCIAL VITALITY","YES","TLFREEMAN","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1191386","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","2","RFC - IMPLEMENTATION","04/20/17 14:19:25","01/01/19 00:00:00","","IN PROGRESS","IBM - Phase 2  Business Continuity Documentation Gaps & Remediation","Master Incident. IBM - Phase 2  Business Continuity Documentation Gaps & Remediation
+
+**See attached Recovery Remediation Action Items Workbook.","TLFREEMAN","1200","FINANCIAL VITALITY","YES","TLFREEMAN","0","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1192976","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","04/27/17 17:16:11","03/30/18 00:00:00","","IN PROGRESS","HIMSS Stage 7 organizational preparation","Master request to prepare the organization for the achievement of HIMSS Stage 7.  This will be a multi-level project that will require multiple parallel efforts.","TWMARLOW","1000","INNOVATION","YES","JMYERS","0","1 - CRITICAL","EPIC CARE INPATIENT","APPLICATION SERVICES",""
+"C1193591","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","3","ESS - RESEARCH","05/02/17 08:48:48","","","PENDING CUSTOMER","B-Line Medical Video at CRMH (Video trauma team activities)","B-Line Medical Video at CRMH
+IEAC: 27.8
+Requested By Date: 09/11/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Please refer to Edison request C1159650 - for TSG to identify a solution for videotaping trauma team activities in rooms Trauma A and B in the ED at CRMH.
+Provide clinical and/or financial background information pertinent to the business need:
+B-Line has been identified as a viable solution.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Accessed on only one PC located in the Trauma PI office (Dan Freeman) on 9 South at CRMH.
+  What other vendors were researched and considered for this solution? Mangold,  Lee Hartman
+  Please list at least 2 reference locations (non-Carilion) that are using this product: None
+  Please provide the name of the selected vendor: B-Line
+  Please provide the URL of the selected vendor's web site: wwwblinemedical.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Inability to observe team resuscitation of critically injured patients and a missed opportunity to inmprove patient care and outcomes and provide data about quality.
+Who is your financial advisor? Regina Martin
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Better patient care through teamwork would decrease length of stay in ED and assist with throughput as well as improve outcomes, decrease length of hospital stay.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee
+Is this a clinical or non-clinical based system? Clinical","ACWRIGHT","1500","HEALTHY COMMUNITIES","YES","PEKANODE","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1193729","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","05/02/17 12:44:30","","","PENDING REVIEW","Implement the Epic Rehab module","Utilize the rehab for the IRF to have information needed for CMS  payment r/t IRF-PI
+Requested By Date: 05/03/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Utilize the rehab module which will allow the IRF to have information needed for CMS  payment r/t IRF-PI; reporting patient outcomes, reports, see rolling 7 min for therapy, etc
+Provide clinical and/or financial background information pertinent to the business need:
+This rehab module would enable us to capture potential revenue that we are currently loosing due to manual processes being done today.
+What are you attempting to achieve and what benefits are you attempting to attain? Regulatory requirement
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? This is an Epic solution
+  What other vendors were researched and considered for this solution? none
+  Please list at least 2 reference locations (non-Carilion) that are using this product: This is currently an Epic product
+  Please provide the name of the selected vendor: Epic
+  Please provide the URL of the selected vendor's web site: none
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? continue with manual processes and negatively impact revenue
+Who is your financial advisor? Carolyn Brandt
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Convert a manual process to an electronic process which will impact FTEs
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","KFCHALFLINCH","3000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1194677","INTAKE_IT_GOVERNANCE","SERVICE CATALOG REQUEST","1","ESS - RESEARCH","05/05/17 11:41:37","","","PENDING REVIEW","2.6 Nursing Remote Sitter ROI Analysis","Meg needs assistance determining the potential ROI on a remote sitter solution for the Clinic.
+
+Nursing Remote Sitter - Assistance with determining the potential ROI for organization
+
+Is this for a new FTE (Full Time Employee)?
+No
+What device(s) will you be implementing?:
+PC / Computer: null
+Laptop: null
+Printer: null
+Scanner: null
+Webcam: null
+Monitor: null
+Docking Station: null
+Keyboard: null
+Mouse: null
+Other: Remote Patient Monitoring System
+Location: ROANOKE MEMORIAL HOSPITAL
+Floor: null
+Room: null
+Cost Center: 01-01-7161-800400
+Requested By Date: 08/15/17 00:00:00
+Description:
+Meg needs assistance determining the potential ROI on a remote sitter solution for the Clinic.
+
+Currently Carilion utilizes real sitters to stay in rooms with patients who are consider high risk for falls.   Meg wants to research the potential ROI of implementing a remote sitter solution that would have electronic in-room surveillance equipment feeding back to a central location.
+
+Meg is analyzing cost data on the current state.  She will eventually need technology cost estimates from TSG for the ROI.","KAOLINGER","","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","NOT.LISTED","HARDWARE SERVICES",""
+"C1194911","SOLUTIONS_DELIVERY_CLINICAL","SOFTWARE REQUEST","1","ESS - RESEARCH","05/07/17 15:48:37","","","PENDING REVIEW","6 Illumicare Implementation and Integration with Epic","Illumicare Implementation and Integration with Epic
+Requested By Date: 09/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Having readily accessible information regarding costs to patients and potential radiation exposure gives clinicians the opportunity to modify their treatments based on this information. Multiple studies have shown that providers who have cost information available at the time of ordering make more informed decisions which ultimately save money for the patient .Illumicare Is a software package designed to display information within Epic regarding price and radiation exposure.
+Provide clinical and/or financial background information pertinent to the business need:
+see above
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? Yes
+  From what devices would the solution be accessed? All clinical devices which have access to Epic
+  What other vendors were researched and considered for this solution? Epic
+  Please list at least 2 reference locations (non-Carilion) that are using this product: UAB  University of Mississippi
+  Please provide the name of the selected vendor: Illumicare
+  Please provide the URL of the selected vendor's web site: www.illumicare.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? decreased visibility to price data
+Who is your financial advisor? Elaine Sullivan
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? approx. 60K
+  What would the annual operating cost be? approx.  34K per month -  408K
+  How many net new FTEs would be required for this solution? 0
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Reduction in patient spend , and overall cost
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","SAMORGAN","750","FINANCIAL VITALITY","YES","MMJONES","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1194985","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","05/08/17 09:56:10","","","PENDING REVIEW","Research standardization and integration in patient IV pumps to Carilion's Epic EMR","
+Requested By Date: 06/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address: 
+Research standardization and integration in patient IV pumps to Carilion's Epic EMR so that bidirectional communication is enabled that will allow for ordered Rx orders to flow from Epic down to the pumps, and the start and stop time, along with administered medications data would flow back into Epic.
+Provide clinical and/or financial background information pertinent to the business need: 
+Having an integrated IV pump solution would be a safety and cost saving initiative as it would help to insure accurate delivery of medications which would reduce waste and increase the accuracy of the delivery of medications.  This would require lease or purchase of IV pumps, and purchase of integration licenses and server(s).  The decision to lease or purchase the IV pumps will be reviewed by Finance.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? IV pumps and devices that connect to Carilion's Epic EMR.
+  What other vendors were researched and considered for this solution? Hospira and Alaris were the vendors that were reviewed
+  Please list at least 2 reference locations (non-Carilion) that are using this product: UVa, adn Cedars Sina, (Alaris) Swedish Hospital ((Hospira) were reviewed
+  Please provide the name of the selected vendor: TBD at this point
+  Please provide the URL of the selected vendor's web site: N/A
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Status quo
+Who is your financial advisor? Harrison Lapuasa
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings: 
+Having an integrated IV pump solution would be a safety and cost saving initiative as it would help to insure accurate delivery of medications which would reduce waste and increase the accuracy of the delivery of medications. 
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee
+Is this a clinical or non-clinical based system? Clinical","CDRIHA","1500","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1195145","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","05/08/17 16:10:51","07/05/17 00:00:00","","IN PROGRESS","Telemedicine : pediatic intecocochular speech therapy","Approved by Telemedicine steering team on 5/4/17 for pediatic intecocochular speech therapy. Work with Amy Kageals to equip 1 Carilion designated machine for Vidyo capability at this work site.  Supply all user insttructions / eduation to Amy. Also,  provide instructions for Amy to share with the patient &  family to connect from home uisng a non carilion machine.
+
+Coordinate with Melena Roberson to help fullfill Epic workflow needs.","SAMORGAN","40","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","RBFARRIS","0","4 - LOW","AUDIO / VIDEO CONFERENCING","VIDEO SERVICES",""
+"C1196134","INTAKE_RAPID_ASSESSMENT","SOFTWARE REQUEST","1","ESS - RESEARCH","05/11/17 16:34:39","","","IN PROGRESS","3 Jvion Implementation","[USL] Implement Jvion to provide risk stratified patients and interventions within multiple clinical areas
+Requested By Date: 09/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Jvion is a predictive / prescriptive risk modeling tool.  It will be used to provide risk stratified patients and interventions within multiple clinical areas
+Provide clinical and/or financial background information pertinent to the business need:
+The tool has been vetted by Nursing, ACT and Case Management.  We will focus on the following areas.
+VTE
+Falls
+Readmissions
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? Yes
+  From what devices would the solution be accessed? All clinical devices which have access to Epic
+  What other vendors were researched and considered for this solution? None
+  Please list at least 2 reference locations (non-Carilion) that are using this product: UAB Sentara
+  Please provide the name of the selected vendor: jvion
+  Please provide the URL of the selected vendor's web site: https://www.jvion.com/
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? inability to identfy at risk patients
+Who is your financial advisor? Elaine Sullivan
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+avoidance of penalties
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","SAMORGAN","1500","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1196290","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","1","ESS - RESEARCH","05/12/17 13:25:27","","","PENDING REVIEW","2.11 TeleTracking Phased Implementation at Hospitals","Requested By Date: 12/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+The requested by date is arbitrary.  As a part of the growth of Carilion Clinic and the increasing volume and capacity year over year, we plan on implementing TeleTracking at each clinic in phased approaches so we can more accurately measure throughput and placements.  The first clinic in the phase is Stonewall Jackson, followed by Franklin (SD824734).  At Stonewall, the plan will be to implement TeleTracking in the same fashion as it is at both RMH and NRV.  We would like to have bedboards on units, EVS and transport capability, and the ability to track patients from entrance to exit the same as RMH and NRV.
+Provide clinical and/or financial background information pertinent to the business need:
+This will provide better oversight of patient movement through Stonewall Jackson for patient safety.  It will also be able to provide insight into utilization of beds and types of patients that are admitted or denied so we can better maximize the resources in place and potentially alter the resources depending on statistics we are able to pull from TeleTracking.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? PC, internet browser
+  What other vendors were researched and considered for this solution? None
+  Please list at least 2 reference locations (non-Carilion) that are using this product: VCU, UVA
+  Please provide the name of the selected vendor: TeleTracking
+  Please provide the URL of the selected vendor's web site: www.teletracking.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? The same business as usual, which is capacity constraints
+Who is your financial advisor? Kari Harvey
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+By seeing how are resources are utilized or underutilized, the cost savings would be altering our admission, transfer, and decline process at Stonewall, thus maximizing the patients we can bring in and therefore maximizing revenue.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee
+Is this a clinical or non-clinical based system? Clinical","CRTUCK","2000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","TELETRACKING ","APPLICATION SERVICES",""
+"C1196378","INTAKE_IT_GOVERNANCE","EPIC SERVICES REQUEST","1","ESS - RESEARCH","05/12/17 15:50:01","","","DEFERRED","Imprivata - Investigate rapid login and two factor authentication for DEA Schedule II","Investigate solutions for both rapid login for Carilion Clinic providers/staff and the ability to do two factor authentication for e-prescribing DEA Schedule II controlled substances.  Imprivata is a vendor with a possible solution to both issues utilizing RFID chips in our existing prox cards as well as fingerprint scanners required for two factor authentication.  Can explore other vendors as well in the process.
+
+Epic application module to be optimized: Ambulatory
+
+Improvement Initiative this Optimization will effect: Regulatory
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value: 
+Thousands of hours saved typing in passwords everytime a Carilion Clinic care provider signs into EPIC.  Meets DEA and Virginia Board of Medicine regulatory guidelines for e-prescribing Schedule II controlled substances and potentially cuts down on medication diversion through forgery.","RRTRUXILLO","","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","EPIC CARE AMBULATORY ","APPLICATION SERVICES",""
+"C1196649","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","05/15/17 14:29:48","","","DEFERRED","Implement Dragon Medical Advisory","Implement Dragon Medical Advisory and 2 Assess/Plan Roadmap for Nuance CDI and CAPD products
+Requested By Date: 09/30/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+1.  Implement Dragon Medical Advisory (already purchased) and 2) Assess/Plan Roadmap for Nuance CDI and CAPD products which has synergies with DMA and DMO
+Provide clinical and/or financial background information pertinent to the business need:
+Improve clinical documentation with potential of  resulting in improved revenue as well as improved data
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Epic devices - pc, laptops, mobile
+  What other vendors were researched and considered for this solution? NA
+  Please list at least 2 reference locations (non-Carilion) that are using this product: NA
+  Please provide the name of the selected vendor: Nuance
+  Please provide the URL of the selected vendor's web site: NA
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Current state
+Who is your financial advisor? Elaine Sullivan/Harrison  Lapuasa
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? NA
+  What would the annual operating cost be? NA
+  How many net new FTEs would be required for this solution? NA
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? No
+  Please check information types that apply: null
+Is this a clinical or non-clinical based system? Clinical","CMPHELPS","1500","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1198417","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","2","ESS - RESEARCH","05/23/17 14:56:12","10/31/17 00:00:00","","IN PROGRESS","ZirMed Implementation","Requested By Date: 06/02/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Revenue Cycle Management has engaged a vendor (ZirMed) to possibly review claims for Charge Integrity and DRG Anomaly Detection.  Please see the attached SOW/MSA documents from Zirmed and review to see if this is a good fit for our use (i.e. hardware/software requirements/security and data governance concerns, etc.).  RCM has given this a high priority and looking to have responses by 6/2/17.
+
+Requested by Carolyn Chrisman (RCM SVP) & Larry Carter (HB Director).
+Provide clinical and/or financial background information pertinent to the business need:
+Charge Integrity/DRG Anomaly Detection has become critical in identifying at least 1% in revenue/reimbursement leakage.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? Yes
+  From what devices would the solution be accessed? CASB
+  What other vendors were researched and considered for this solution? ?
+  Please list at least 2 reference locations (non-Carilion) that are using this product: ?
+  Please provide the name of the selected vendor: ZirMed
+  Please provide the URL of the selected vendor's web site: info..zirmed.com
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Decreased reimbursement
+Who is your financial advisor? ?
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Correct DRG
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Financial
+Is this a clinical or non-clinical based system? Non-Clinical","CSBROWN","80","","YES","AMRAMSAY","0","","EPIC HOSPITAL BILLING","APPLICATION SERVICES",""
+"C1199657","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","05/30/17 16:28:46","09/06/17 00:00:00","","IN PROGRESS","Cipher Health Orchid Rounding Tool Implementation","Implement Cipher Health Orchid rounding tool","MMSCHEAFFEL","600","WORKFORCE FOR THE FUTURE","YES","RBFARRIS","0","3 - MEDIUM","UNLISTED  APPLICATION","APPLICATION SERVICES",""
+"C1201015","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 16:35:14","","","PENDING REVIEW","Secure Texting/Communications - (Patient and Org Communications)","Secure Texting/Communications - (Patient and Org Communications)
+
+TSG Priority and Status: 1 and In Progress
+
+Selecting Undetermined Service/CI, since it could be a Messaginng or Integrated Application Service.
+Scope Management: Service/CI may involve other, multiple services- i.e., Epic.","SMFOUTZHARLOR","3000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201040","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","1","RFC - RESEARCH","06/05/17 17:00:55","","","IN PROGRESS","2 Huron Assessment Projects for Access/Throughput - (Access to Care)","Huron Assessment Projects for Access/Throughput
+
+TSG Priority and Status: 1 and Proposed
+Scope Management: Service/CI may involve other services.
+Area and Sub-Area should be adjusted by Change Owner upon Project Start.","SMFOUTZHARLOR","3000","FINANCIAL VITALITY","YES","DPMARTIN","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201047","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","06/05/17 17:20:27","","","PENDING REVIEW","Lab Test Order Review (One Time Tests)","Lab Test Order Review (One Time Tests)
+
+TSG Priority and Status: 2 and In Progress
+Note: Selected Undetermined Services due to level of detail. Scope Management: Service/CI may involve other services- i.e.,  Epic IP Orders and Cardiovascular Lab Team.
+
+Additional Note: Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","1500","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201056","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 18:44:19","","","PENDING REVIEW","Getwell Network Expansion - (Patient Education Media)","Getwell Network Expansion - (Patient Education Media)
+
+TSG Priority and Status: 2 and Proposed
+Scope Management: Service/CI may involve other services.
+
+*No existing projects found for GWNetwork Expansion.
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","1500","HEALTHY COMMUNITIES","YES","INTAKEPROCESS","0","1 - CRITICAL","GETWELL NETWORK","APPLICATION SERVICES",""
+"C1201060","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","1","RFC - RESEARCH","06/05/17 20:33:12","","","PENDING REVIEW","2.10 Kiosks, e-checkin and centralized pre-registration for FCM - (Access to Care)","Kiosks, e-checkin and centralized pre-registration for FCM - (Amb Throughput)
+
+
+TSG Priority and Status: 2 and Proposed
+Selecting Hardware (kiosks) due to level of detail, but likely would involve other Epic Amb and integrative application services.
+Scope Management: Service/CI may involve others.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","3000","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","3 - MEDIUM","UNDETERMINED","HARWDARE",""
+"C1201061","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","2","RFC - RESEARCH","06/05/17 20:44:42","","","DEFERRED","PeraTrend Phase II - (Acuity Scoring)","PeraTrend Phase II - (Acuity Scoring)
+
+TSG Priority and Status: 2 and Proposed
+Selected Undetermined due to level of detail.
+Scope Management: Service/CI may involve other services.
+
+*Found no search results for PetraTrend application services portfolio.
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.
+
+PeraTrend: Request two things. Upgrade to the new 4.0 version and enable the following functionality: 1) ""My Lists"" (ability to see Rothman Indices on only your patients) - 2) Add a PAF column in EPIC that displays the raw Rothman Index Score on a patient list. This request comes from a leadership meeting 6/20/17). Dr. Truxillo Comments: Set Priority to ""High."" This should wait until after the EPIC 2017 upgrade is complete.","SMFOUTZHARLOR","3000","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","INTAKEPROCESS","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201062","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 21:21:12","","","PENDING REVIEW","Community Health EDW Expansion","Community Health EDW Expansion
+
+TSG Priority and Status: 3 and Proposed
+
+Scope Management: Service/CI may involve other services.
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","1500","HEALTHY COMMUNITIES","YES","INTAKEPROCESS","0","2 - HIGH","EPIC COGITO DW","APPLICATION SERVICES",""
+"C1201063","SOLUTIONS_DELIVERY_CLINICAL","RFC - IMPLEMENTATION","2","RFC - IMPLEMENTATION","06/05/17 21:30:27","08/28/17 10:00:00","","IN PROGRESS","Epic Carequality - (Health Information Exchange)","																																																Epic Carequality - (Health Information Exchange)
+
+TSG Priority and Status: 3 and Proposed
+Selected Undetermined as it appears to be a new module on Epic User Web.
+Scope Management: Service/CI may involve other services.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","262","HEALTHY COMMUNITIES","YES","WTFISHER","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201064","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 21:37:29","","","DEFERRED","Hospital IQ - (ED Analytics)","Hospital IQ - (ED Analytics)
+
+TSG Priority and Status: 3 and Proposed
+Scope Management: Service/CI may involve other services.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","1500","FINANCIAL VITALITY","YES","INTAKEPROCESS","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201065","INTAKE_NONCLINICAL_PRIORITIZATION","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 21:43:03","","","PENDING REVIEW","Lawson version 11 Upgrade - (Enterprise Resource Planning)","Lawson version 11 Upgrade - (Enterprise Resource Planning)
+
+
+TSG Priority and Status:3 and Proposed
+Scope Management: Service/CI may involve other services.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","3000","WORKFORCE FOR THE FUTURE","YES","","0","2 - HIGH","LAWSON ","APPLICATION SERVICES",""
+"C1201066","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","4","RFC - RESEARCH","06/05/17 21:48:56","","","PENDING REVIEW","Next Generation SIS - Jefferson College - (Student Information System)","Next Generation SIS - Jefferson College - (Student Information System)
+
+TSG Priority and Status: 3 and Proposed
+Selected Undetermined since a  net new solution.
+Scope Management: Service/CI may involve other services.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","3000","WORKFORCE FOR THE FUTURE","YES","INTAKEPROCESS","0","3 - MEDIUM","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201068","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 22:08:48","","","DEFERRED","Pharmacogenetics and Decision Support","Pharmacogenetics and Decision Support
+
+TSG Priority and Status:  and Proposed
+Scope Management: Service/CI may involve net new CI and other services.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","1500","INNOVATION","YES","INTAKEPROCESS","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201069","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 22:12:31","","","DEFERRED","Predictive Analytics","Predictive Analytics
+
+TSG Priority and Status: 3 and Proposed
+Scope Management: Service/CI may involve net new solution and other services.
+
+Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","3000","INNOVATION","YES","INTAKEPROCESS","0","2 - HIGH","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1201070","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","3","RFC - RESEARCH","06/05/17 22:15:21","","","PENDING REVIEW","Lawson / Epic Supplies - (OR supplies improvement)","Lawson / Epic Supplies - (OR supplies improvement)
+
+TSG Priority and Status: 3 and Proposed
+Scope Management: Service/CI may involve other services.
+
+Additional Note: Given details from client, Area and Sub-Area should be adjusted/corrected by Change Owner or PMO upon Project Start.","SMFOUTZHARLOR","4000","WORKFORCE FOR THE FUTURE","YES","INTAKEPROCESS","0","2 - HIGH","LAWSON ","APPLICATION SERVICES",""
+"C1201779","CLINICAL_INFORMATICS","RFC - IMPLEMENTATION","1","RFC - RESEARCH","06/08/17 08:42:24","08/31/17 00:00:00","","IN PROGRESS","2.5 USDA Telemedicine Grant rollout sites","Need to establish repeatable process for all USDA authorized sites to schedule Telemd services for psych. Must be able to drop charge for the Psychiatrist who  doe the serve and  let site  add in a site charge to the billing work queues, since service was done at their  site. They use Vidyo on an iPad","TRMILAM","235","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","MAROBERSON","0","2 - HIGH","EPIC CARE AMBULATORY","APPLICATION SERVICES",""
+"C1202683","INTAKE_IT_GOVERNANCE","SOFTWARE REQUEST","3","ESS - RESEARCH","06/12/17 17:00:12","","","PENDING REVIEW","Experian PARS (Payment Appeal Recovery Service)","HIGH 1 - OCT RLS
+Requested By Date: 06/13/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Was told by Robert Utterback to submit an Edison request for TSG representation at the meeting tomorrow at 4pm.  I have forwarded meeting request to Lynn Morejon.  Was not notified of this Edison request until today when meeting was set up last week.
+
+I am planning on pursuing a contract with Experian PARS (Payment Appeal Recovery Service).  We currently are contracted to use MPV, which is a payment variance tool.  Basically they appeal underpayments on our behalf and they keep 30% of recoverable revenue.
+Provide clinical and/or financial background information pertinent to the business need:
+We currently do not appeal underpayments for professional billing on a case by case basis, only high level trends for contract management, potentially losing close to $1m annual in cash flow
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Leased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? Experian MPV
+  What other vendors were researched and considered for this solution? just Experian PARS because they would use Experian MPV, which we already are contracted
+  Please list at least 2 reference locations (non-Carilion) that are using this product: unknown
+  Please provide the name of the selected vendor: Experian PARS
+  Please provide the URL of the selected vendor's web site: unknown
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? we will not capitalize on revenue lost from underpayments by the payors as a result of their incorrect loading of contracted fee schedules
+Who is your financial advisor? Harrison Lapuasa
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+We currently do not appeal underpayments for professional billing on a case by case basis, only high level trends for contract management, potentially losing close to $1m annual in cash flow.  This company would appeal underpayments on our behalf.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Financial
+Is this a clinical or non-clinical based system? Non-Clinical","BEBURROW","320","FINANCIAL VITALITY","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1202846","SOLUTIONS_DELIVERY_CLINICAL","SERVICE CATALOG REQUEST","2","ESS - IMPLEMENTATION","06/13/17 12:01:42","09/29/17 00:00:00","","IN PROGRESS","Sleepware G3 Respironics Software for Sleep Lab","SQL Server Implementation for Phillips Sleepware G3 Respironics Software.
+
+20284The SLAB needs a vm server with SQL for the new G3 Respironics software. This would migrate the studies from the shared drive and allow doctors to search by patient names. Documentation is attached.
+
+No
+
+What device(s) will you be implementing?:
+
+PC / Computer: null
+
+Laptop: null
+
+Printer: null
+
+Scanner: null
+
+Webcam: null
+
+Monitor: null
+
+Docking Station: null
+
+Keyboard: null
+
+Mouse: null
+
+Other: Server
+
+Location: JEFFERSON PLAZA
+
+Floor: Ground
+
+Room: 101
+
+Cost Center: 01-01-7096-800600
+
+Requested By Date: 06/23/17 00:00:00
+
+Description:
+The SLAB needs a vm server with SQL for the new G3 Respironics software. This would migrate the studies from the shared drive and allow doctors to search by patient names. Documentation is attached.","RDHUFFMAN","210","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","JMYERS","0","","NOT.LISTED","HARDWARE SERVICES",""
+"C1204057","INTAKE_IT_GOVERNANCE","RFC - OPTIMIZATION","1","RFC - RESEARCH","06/19/17 16:53:32","","","PENDING REVIEW","2.5 Enable MyChart for Telehealth","Enable MyChart for Telehealth. Makes Vidyo more consumer ready for customer and pt experience.","RBFARRIS","90","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","2 - HIGH","EPIC MYCHART","APPLICATION SERVICES",""
+"C1204414","SOLUTIONS_DELIVERY_NONCLINICAL","SOFTWARE REQUEST","2","ESS - RESEARCH","06/21/17 09:33:51","12/29/17 00:00:00","","IN PROGRESS","Microsoft Azure Business Intelligence Pilot - (Research related)","Azure BI pilot project:   (Phase 1 and Phase 2)
+
+Requested By Date: 07/28/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+This is a request to generate a separate RFC for the Azure BI pilot project.  Currently, the project is being tracked against the Office 365 Proof of Concept RFC (C1170085), but the Azure BI has a separate sponsor, separate team members and separate timelines.
+Provide clinical and/or financial background information pertinent to the business need:
+Microsoft has provided approximately $10,000 in Azure credits to be used in a pilot phase.  Those credits expire on 9/30/17.  Discussions are in progress with PISO regarding a new BAA agreement with Microsoft and Information Security requirements.  Phase 1 will only use publicly-available (non-Carilion) data sets in the cloud and will allow models to be tested against the cloud data and then copied down on-prem to run against Carilion data.  A proposed Phase 2 would store encrypted Carilion data in the Azure BI cloud instance; this would be pending PISO approval to proceed with this.
+What are you attempting to achieve and what benefits are you attempting to attain? Net new item
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Leased
+  Would the solution be hosted offsite in the ""cloud""? Yes
+  From what devices would the solution be accessed? Health Analytics / BI team devices
+  What other vendors were researched and considered for this solution? N/A
+  Please list at least 2 reference locations (non-Carilion) that are using this product: Not known
+  Please provide the name of the selected vendor: Microsoft
+  Please provide the URL of the selected vendor's web site: https://azure.microsoft.com/en-us/solutions/business-intelligence/
+Would this initiative replace an existing solution? No
+  What is the solution being replaced? null
+If this request is denied or delayed, what may happen as a result? Lowered ability to perform analytical data analysis; loss of Microsoft funding credits to use to test the application
+Who is your financial advisor? Not known - pilot phase only
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Other
+Is this a clinical or non-clinical based system? Non-Clinical","KLLAWTON","250","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","KLLAWTON","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1207691","INTAKE_IT_GOVERNANCE","EPIC SERVICES REQUEST","3","ESS - RESEARCH","07/06/17 11:09:25","","","PENDING REVIEW","Implement EPIC's CRM module for Ortho schedulers - (Access to Care)","I would like to implement EPIC's CRM module for the Orthopaedic schedulers (Ortho Gen Ion 2381001).  When the schedulers have a patient that they are unable to schedule due to missing documentation, they'll start a CRM which would be auto routed to the manager for follow up.  We would need to add the CRM module to their template and build a topic ""Ortho Appointment"" and a subtopic ""Requires ALN assistance""
+
+Epic application module to be optimized: Scheduling / Referrals (Cadence)
+
+Improvement Initiative this Optimization will effect: Throughput and Access
+
+Who will be impacted by this Optimization: 3-UNIT / DEPT
+
+Benefit / Value: 
+There's currently a process in place when a patient is treated in the Emergency Room, the physician oncall is supposed to enter a note in EPIC which provides guidance to the schedulers on how to schedule the patient's Ortho appointment when they call in the next day.   Not all of the providers are good about entering the documentation that is needed.  If the documentation isn't in EPIC, the scheduler has to connect the patient to the advice line nurse for triage.  That results in an extra transfer for the patient and they have to give all of their information again.   Enabling CRM will allow us to be able to track the instances where the documentation was not entered so we can report on it and address the missing documentation.  This will ultimately create a much better experience for the patient and allow us to appropriately schedule without having to utilize an expensive resource like a nurse.","TJNERENBERG","240","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","EPIC CADENCE","APPLICATION SERVICES",""
+"C1208380","INTAKE_IT_GOVERNANCE","RFC - IMPLEMENTATION","2","RFC - RESEARCH","07/10/17 11:20:15","","","PENDING REVIEW","i2b2 Implementation via EDW - (Research related)","i2b2 Implementation via EDW
+
+Please see updated activities...
+
+Solutions Delivery
+------------------------
+Request to perform research, analysis, and eventually implementation of I2B2 using technology resources.  This project will likely require involvement from multiple teams to build I2B2 servers from (likely) RedHat Linux using LAMP stack on virtual machine.  Implementation of I2B2 Shrine server with Programming/Web services.  Database will (likely) be running on Oracle and EDW team involvement for model, design, and ETL development.
+
+You are correct. The OMOP vs i2b2 model was the desire of the CTSA grant participants. For the OMOP model, we would build extracts to i2b2 vs using the Caboodle i2b2 extracts.
+
+Patrick and I have discussed and our assumptions for the scope are:
+•	operationalization of i2b2 by setting up a test environment in preparation for production readiness
+•	use of the OMOP data model
+•	initial concentration on one domain (e.g., procedures, diagnoses, etc.)
+
+For a test environment, we are aware of participation from at least the following teams to build and support an operational i2b2 environment:
+
+i2b2 database - DBA team (Oracle)/Unix Team (AIX)
+ETL processes - EDW team
+i2b2 application - HA_Research_Team; Virtualization Team (VM); Programming Web Team
+i2b2 workbench client - System Analyst Team
+
+To implement the above, we will need:
+- gathering and documentation of requirements - business analyst
+- orchestration of project - project manager
+- timelines and milestones defined by project team
+
+We estimated 1600 hours of technical resource hours for the i2b2 model for the CTSA grant and we believe we can accomplish OMOP in this timeframe with a limited domain. If this is giving priority, then the EDW team would need to put a hold on other lower priority requests.","POSPARKS","1600","INNOVATION","YES","INTAKEPROCESS","0","3 - MEDIUM","EPIC COGITO DW","APPLICATION SERVICES",""
+"C1208579","SOLUTIONS_DELIVERY_CLINICAL","EPIC SERVICES REQUEST","1","ESS - RESEARCH","07/11/17 08:33:46","","","IN PROGRESS","4 NarxCare integratation into Epic for Opiods","integrate NarxCare functionality into Epic
+
+Epic application module to be optimized: Ambulatory
+
+Improvement Initiative this Optimization will effect: Regulatory
+
+Who will be impacted by this Optimization: 1-ENTERPRISE / HOSPITAL
+
+Benefit / Value: 
+Improved search cabailities for PDMP searching","MLSPEAKER","300","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","JMBRANIN","0","","EPIC CARE AMBULATORY ","APPLICATION SERVICES",""
+"C1208923","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - OPTIMIZATION","3","RFC - RESEARCH","07/12/17 08:34:45","","","DEFERRED","Integration w/ alternate Transcription/Dictation System (Nuance Backup)","Research and implement integration with alternate dictation/transcription vendor.
+
+Intent is to put in place a robust back up solution in case of Nuance eScription downtime.  Vendor currently in use and anticipated for this back up solution is InScribe.
+
+Integration with Inscribe:  To Be Determined:
+1) At what downtime threshold do we revert to back up vendor
+2) Contractual and security review arrangements with vendor (InScribe)
+3) Whether Tazewell imaging is included in the solution
+4) Whether vendor receives real time feed of providers, orders, etc.
+5) (May be other considerations discovered by solution group once initiated)","GTWOLFORD","360","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","","0","1 - CRITICAL","NUANCE ESCRIPTION / EMON","APPLICATION SERVICES",""
+"C1210805","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","1","RFC - RESEARCH","07/20/17 13:19:16","","","PENDING REVIEW","2.9 Next Generation Call Center Replacement/Upgrade","We are looking for a replace for our call center software.  Our software is antiquated and the servers are our of date and not covered under warranty  and they pose a security risk to the organization. Our current software solution does not meet the needs of the organization. Requesting to upgrade or  replace existing software.","LCSKORUPSKI","","WORKFORCE FOR THE FUTURE","YES","","0","2 - HIGH","AVAYA CONTACT CENTER EXPRESS (CCE)","VOICE SERVICES",""
+"C1211248","INTAKE_IT_GOVERNANCE","RFC - OPTIMIZATION","2","RFC - RESEARCH","07/22/17 13:21:44","","","PENDING REVIEW","Pediatric Developmental Screenings - digital/electronic & integrate with Epic (QI Project)","User is a pediatrician who is currently developing a QI project to address screening of development issues in children. They would like to make these screenings available electronically. They have some resources for funding but would like to check to see if the idea is possible..
+
+They would like 17-20 tablets for our clinics.  They would like parents to complete surveys on the tablet and have these surveys incorporated and/or pushed into EPIC in real time once completed.
+
+User would like to know if the technology is possible and user would like to know the price for the tablets as well as protective cases for them.
+
+User ID: RPFULTON","RPFULTON","","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","3 - MEDIUM","NOT.LISTED - MOBILE DEVICE","HARDWARE SERVICES",""
+"C1211588","INTAKE_RAPID_ASSESSMENT","SOFTWARE REQUEST","3","ESS - RESEARCH","07/24/17 19:07:26","","","PENDING REVIEW","EP recording system replacement with GE Cardiolab","[JEK] Requested By Date: 08/04/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+Current EP recording system from St. Jude (Workmate) is being replaced with the GE product called Cardiolab. This project has been entered in Strata and TSG is included as a stakeholder (see email from Chis Monk Senior Director for Cardiology). As a part of this upgrade imaging equipment will also be replaced. The anticipated timeline for the construction on the room being completed is the end of February with vendor install starting in March 2018.
+
+At this time we need TSG help to  engage EPIC/Siemens/Carto and St Jude vendors, to better understand integration between systems (Carto and St. Jude mapping System to CardioLab and Cardio lab to Epic) and the cost of integration. In addition we will need to integrate imaging system with Syngo Dynamics, and understand other data storage needs.
+Provide clinical and/or financial background information pertinent to the business need:
+Sent: Friday, July 21, 2017 10:26 AM
+To: Sabanovic, Elvir <exsabanovic1@carilionclinic.org>; Martin, Douglas P. (Doug) <dpmartin@carilionclinic.org>; Riha, Chris D. <cdriha@carilionclinic.org>; Huffman, Roger D. <rdhuffman@carilionclinic.org>; Skelton, Donald M. (Mark) <dmskelton@carilionclinic.org>
+Cc: Ricotta, Virginie M. (GINNY) <VMRICOTTA@carilionclinic.org>; Fisher, Cathy S. <csfisher@carilionclinic.org>; Marlow, Thomas W. (Mac) <twmarlow@carilionclinic.org>
+Subject: RE: CardioVascular Program Management Oversight Committee Meeting - 6/14/17 Meeting Notes
+
+Hello all,
+
+I wanted to provide some detail that may be helpful on this project.  Cardiolab has been put into Strata; however, I am awaiting capital approval.  I  did request TSG as part of the implementation process in the Strata request, so once approved by the capital/board that ball is set to start rolling as part of the Strata process.
+Cardiolab is part of a bigger project (building a new EP lab to replace one of the existing ones-moving it to a different location [inside the cath lab]) which has been blessed by senior leadership, but also pending final approval in Strata to be able to cut a PO for the imaging equipment.  TSG (as well as other depts) is a part of that request as well.  The install of the Cardiolab equipment should line up with the completion of the new EP lab.  I currently have a total of three EP labs and with the replacement lab, we want to also switch recording systems in the existing (other 2 labs).  This is because I can't run two different recording systems in different labs without it posing by a patient safety concern from the end user perspective (different systems) as well as it would create different workflows for both staff and IT.  Replacing all three recording systems at once is the right thing to do.  The anticipated timeline for the construction on the room being completed is the end of February with vendor install starting in March 2018.
+Email from Chis Monk
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Purchased
+  Would the solution be hosted offsite in the ""cloud""? No
+  From what devices would the solution be accessed? CardioLab
+  What other vendors were researched and considered for this solution? Siemens
+  Please list at least 2 reference locations (non-Carilion) that are using this product: N/A
+  Please provide the name of the selected vendor: GE
+  Please provide the URL of the selected vendor's web site: N/A
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? St. Jude Workmate
+If this request is denied or delayed, what may happen as a result? May not be able to do ablation procedures without supporting equipment.
+Who is your financial advisor? Ben Pinckard
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? Requiest is in Strata entered by Chris Monk
+  What would the annual operating cost be? Requiest is in Strata entered by Chris Monk
+  How many net new FTEs would be required for this solution? None
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient, Employee
+Is this a clinical or non-clinical based system? Clinical","EXSABANOVIC1","","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","INTAKEPROCESS","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1212468","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - MAINTENANCE","1","RFC - RESEARCH","07/27/17 17:34:02","","","IN PROGRESS","8 Implement Web platform of 3M CRS - Allows for use with Epic","Implement Web platform of 3M CRS.  The vendor, 3M, is on the threshold of shifting their architecture for the 3M Encoder installation which will significantly impact the configuration as it stands at Carilion.  This would have consequences for 3M Encoder as installed and integrated with Epic, as installed in ""Stand Alone"" mode, and as installed and integrated with ClinTrac.  Kevin Zeitz can give a very eloquent synopsis of the way 3M Encoder has been installed and updated (quarterly, sometimes more frequently) historically as well as the ramifications of the imminent change.
+
+In order to avoid the consequences of this change in architecture, we have the option of installing the ""WebCRS"" version which will simplify our installation and maintenance at Carilion going forward, negate the diffiuclties of trying to proceed with the conventional version, and is ultimately what 3M will force us to do anyway.
+
+We request that this RFC be approved and routed to the Solutions Delivery Nonclinical assignment group and implemented with Administrative Applications assignment group resources.  We request that this be prioritized as a Critical so that we can start work on this immediately.
+
+There will need to be assistance from server and networking resources at a minimum and we roughly estimate the level of effort to be 40 to 60 hours.  This Web verision will actually be installed locally and can be installed on virtual machine(s).  The installation assistance cost for this is typically about $2100 but is embedded in the current proposal for the 360 Encompass Release 2 upgrade so should not be assessed for this early implementation (the amendment from 3M for this is forthcoming).","GTWOLFORD","400","FINANCIAL VITALITY","YES","RMDURHAM","0","3 - MEDIUM","3M ENCODER ","APPLICATION SERVICES",""
+"C1212535","INTAKE_DEFERRED_REQUESTS","SOFTWARE REQUEST","3","ESS - RESEARCH","07/28/17 10:51:44","","","DEFERRED","Plans to implement digital mammo","[USL] Plans to implement digital mammo
+Film screen mammography to be replaced by digital mammography.  Reimbursement rates will continue to decrease and we are not providing the standard of care with film screen mammography
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? No
+  Would there be an ongoing contract associated with this proposed solution? null
+  Would this solution be purchased or leased? null
+  Would the solution be hosted offsite in the ""cloud""? null
+  From what devices would the solution be accessed? null
+  What other vendors were researched and considered for this solution? null
+  Please list at least 2 reference locations (non-Carilion) that are using this product: null
+  Please provide the name of the selected vendor: null
+  Please provide the URL of the selected vendor's web site: null
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? Film screen mammgraphy
+If this request is denied or delayed, what may happen as a result? Loss of revenue
+Who is your financial advisor? Sasha Hill
+Have you discussed this solution with your financial advisor? No
+  What dollar amount are you requesting? null
+  What would the annual operating cost be? null
+  How many net new FTEs would be required for this solution? null
+Would there be any cost savings associated with this request? No
+  Provide a descritpion of the cost savings:
+
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Patient
+Is this a clinical or non-clinical based system? Clinical","EBMYERS","","FINANCIAL VITALITY","YES","","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1213914","INTAKE_NONCLINICAL_PRIORITIZATION","SOFTWARE REQUEST","","ESS - RESEARCH","08/03/17 16:16:53","","","IN PROGRESS","The IRB is currently still in a paper-based system and we are planning to move to an electronic submission system that would encompass the entire research review process. We are proposing to use the iMedRIS system for this purpose.","Requested By Date: 09/01/17 00:00:00
+Provide a short description of the business issue or need you are trying to address:
+The IRB is currently still in a paper-based system and we are planning to move to an electronic submission system that would encompass the entire research review process. We are proposing to use the iMedRIS system for this purpose.
+Provide clinical and/or financial background information pertinent to the business need:
+Human subjects research is submitted, approved, and tracked by the IRB. An electronic system is needed for the research community to have a more seamless submission system, and for the IRB to more efficiently manage the submission workload.
+Compliance:  An e-system would greatly assist with ensuring regulatory compliance.  Documents and correspondence are currently being stored in a paper file and in an e-file on IRB shared drive, and study information is input by IRB staff into an outdated and bare bones Access database.  An e-system would remove duplication and chance for error on the both the IRB and investigator end, as the most recent documents would automatically be stored in the e-system.  Any member of the research team would be able to log in and find the most recent versions of their approved study documents. An e-system would greatly simplify the process for documenting investigator and IRB compliance with regulatory requirements, as these requirements would be built into the review and approval process rather than IRB staff and IRB members completing separate checklists that have to be scanned and uploaded into the shared drive.  In addition, an e-system time stamps all actions so that the timeline of a study would be documented, as well as the person completing the action.  An e-system would permit the running queries for studies that place the organization at the highest risk (vulnerable populations or investigator-initiated investigational new drug studies) so that additional attention can be given to those studies.
+Convenience and ease of use: An e-system would allow researchers to submit applications from anywhere and be able to easily track the status of their submission in the review process.  It would also permit the various sign offs  levels to happen remotely or on their own time.
+Turnaround times:  Researchers will likely respond to queries more quickly because they would not have to have access to their paper submissions. Triage on the IRB side will be a quicker process as the information will not have to logged into a database, CITI training will not have to be verified since it will be stored in the system, and the approval process will be automated. All these factors, along with other reduced administrative burdens, will contribute to reduced turnaround times.
+Reporting: An e-system would allow for better and simplified tracking on turnaround times for submissions to determine which areas the IRB needs to improve and the areas where more investigator education is needed.   In addition, it would permit tracking of turnaround times for actions other than new study approvals, which is currently not possible in the Access database.  Running any reports from the current database is a cumbersome and challenging process which only yields minimal information.  This would be automated with an e-system.
+Administrative burden of study files:  In order to maintain paper files, time is spent printing out documents if received electronically, or scanning documents to the e-file and for IRB members if delivered in paper format to the IRB.  IRB resources are used for printing and delivering packets.  In an e-system, the investigators would be responsible for uploading all documents into the system and there would be no printing or creating paper files.  All members would access the documents through the e-system.  All transactions for a study would be in one place and the timeline will be clearly displayed. In addition, it would simplify the process of creating and editing full board meeting agendas, as this could be done seamlessly through the e-system and the most up-to-date information would always be available to all IRB staff and IRB reviewer.
+Administrative burden of email reminders: All approved studies receive two continuing review reminders at 30 and 60 days before expiration.  If the study expires, and expiration notice is also sent.  This is a manual process where a report is run in Access on a routine basis, then emails drafted and sent to the PI of those studies.  This process would be automated by an e-system and eliminate a huge administrative burden.
+Administrative burden of processing documents: Once studies are approved, there is a manual electronic stamping process of consent documents and recruitment materials done by the IRB staff. These documents are then emailed to the PI along with their approval letter. The process of stamping and sending approval letters would be mostly automated through the use of an e-system.
+System sustainability: The current Access database system version is no longer supported and is not sustainable.
+What are you attempting to achieve and what benefits are you attempting to attain? Necessary to maintain existing revenue or service (break-fix)
+Has a product or vendor already been reviewed or selected? Yes
+  Would there be an ongoing contract associated with this proposed solution? Yes
+  Would this solution be purchased or leased? Leased
+  Would the solution be hosted offsite in the ""cloud""? Yes
+  From what devices would the solution be accessed? PCs, Macs, mobile devices such as phones and tablets
+  What other vendors were researched and considered for this solution? IRB Manager, Kuali, InfoEd
+  Please list at least 2 reference locations (non-Carilion) that are using this product: UCSF, UConn Health, University of Tennessee, Knoxville, Baylor Scott & White Health, City of Hope National Medical Center
+  Please provide the name of the selected vendor: iMedRIS
+  Please provide the URL of the selected vendor's web site: https://www.imedris.com/Modules/IRB-Software
+Would this initiative replace an existing solution? Yes
+  What is the solution being replaced? paper based tracking and outdated Access database
+If this request is denied or delayed, what may happen as a result? participants possibly put at risk due to investigators using incorrect and unapproved consent forms, regulatory noncompliance due to the administrative burden of tracking paper files,  researchers get frustrated with a paper submission system and lack of transparency in the research review process and stop conducting research at Carilion or move on to another organization with a stronger research infrastructure
+Who is your financial advisor? Michelle Blanchard
+Have you discussed this solution with your financial advisor? Yes
+  What dollar amount are you requesting? 25000
+  What would the annual operating cost be? 21000
+  How many net new FTEs would be required for this solution? .5 for initial implementation
+Would there be any cost savings associated with this request? Yes
+  Provide a descritpion of the cost savings:
+Paper and administrative costs will be reduced. The main cost savings is that IRB staff could focus on issues that are more important rather than on administrative tasks.  The workflow for research will be more seamless, which will result in less wasted administrative time on the end of the researchers.
+Data stored on this system will not be PHI or FERPA. It will be research protocols, supporting documents,  and related administrative documents only.
+Will confidential Carilion Clinic information be stored or transmitted by this system? Yes
+  Please check information types that apply: Other
+Is this a clinical or non-clinical based system? Non-Clinical","CAEMERSON","","CLINICAL ADVANCEMENT AND PATIENT SAFETY","YES","","0","","UNDETERMINED","UNDETERMINED SERVICES",""
+"C1216416","SOLUTIONS_DELIVERY_NONCLINICAL","RFC - IMPLEMENTATION","2","RFC - RESEARCH","08/16/17 09:28:30","10/31/17 00:00:00","","IN PROGRESS","Install Kronos Achiving: Record Retention and Enterprise Archive.","Kronos Achiving: Record Retention and Enterprise Archive.","TARINN","100","WORKFORCE FOR THE FUTURE","YES","DRAQUILO","0","2 - HIGH","KRONOS MOBILE / OTHER","APPLICATION SERVICES",""
+"C1216503","HA_REPORTING_ANALYTICS","SERVICE CATALOG REQUEST","1","ESS - RESEARCH","08/16/17 11:54:11","12/31/17 00:00:00","","IN PROGRESS","2.1 Huron Dashboard - (Access to Care)","Huron Dashboard Extract Master Request
+
+Description:
+Extracts required for Huron Dashboard product.
+
+Business Need:
+Extract file requirements provided. Needed for third party dashboard product supplied by Huron.
+
+Impact: 1-ENTERPRISE / HOSPITAL
+
+Requested By Date: 12/31/17 00:00:00
+
+Deadline Driver:
+There are different deadlines for each extract file that will be provided in the child requests.
+
+Approval:
+Chuck Sawyers","DEANDERSON","2400","CONNECTED, CONVENIENT, COLLABORATIVE CARE","YES","DEANDERSON","0","","UNDETERMINED","UNDERTERMINED SERVICES",""
